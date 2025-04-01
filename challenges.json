@@ -7,7 +7,7 @@
       "conceptsTaught": ["Basic Solidity syntax", "Variables (uint)", "Increment/Decrement functions"],
       "exampleApplication": "A simple counter contract to learn variable declaration, function creation, and basic arithmetic. Like a YouTube view counter, tracking how many times a button is clicked.",
       "logicalProgression": "Foundational syntax and basic contract structure.",
-      "youtubeLink": "https://www.youtube.com/watch?v=HzhZzoHqGP8",
+      "youtubeLink": "https://youtu.be/7AoTBeDrFgk",
       "solutionLink":"https://www.notion.so/builder-hub/ClickCounter-Contract-1c15720a23ef8001ac8fd21470d611c5"
     },
     {
