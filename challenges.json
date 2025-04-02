@@ -15,7 +15,7 @@
       "week": "Week 1: Solidity Fundamentals",
       "contractName": "SaveMyName.sol",
       "conceptsTaught": ["State variables (string, bool)", "Storage and retrieval"],
-      "exampleApplication": "Imagine creating a basic profile. You'll make a contract where users can save their name (like 'Alice') and a short bio (like 'I build dApps'). You'll learn how to store text (using `string`) on the blockchain and whether a setting is true or false (using `bool`). Then, you'll create functions to let users save and retrieve this information. This demonstrates how to store and retrieve data on the blockchain, essential for building profiles or user data storage.",
+      "exampleApplication": "Imagine creating a basic profile. You'll make a contract where users can save their name (like 'Alice') and a short bio (like 'I build dApps'). You'll learn how to store text (using `string`) on the blockchain. Then, you'll create functions to let users save and retrieve this information. This demonstrates how to store and retrieve data on the blockchain, essential for building profiles or user data storage.",
       "logicalProgression": "Introduces data types and state management."
     },
     {
