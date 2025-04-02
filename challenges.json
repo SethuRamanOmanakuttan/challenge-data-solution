@@ -23,7 +23,7 @@
       "week": "Week 1: Solidity Fundamentals",
       "contractName": "PollStation.sol",
       "conceptsTaught": ["Arrays (uint[])", "Mappings (mapping(address => uint))", "Simple voting logic"],
-      "exampleApplication": "Let's build a simple polling station! Users will be able to vote for their favorite candidates. You'll use lists (arrays, `uint[]`) to store the vote counts for each candidate. You'll also create a system (mappings, `mapping(address => uint)`) to remember who (their `address`) voted for which candidate. Think of it as a digital voting booth. This teaches you how to manage data in a structured way, associating addresses with vote counts.",
+      "exampleApplication": "Let's build a simple polling station! Users will be able to vote for their favorite candidates. You'll use lists (arrays, `uint[]`) to store candidate details. You'll also create a system (mappings, `mapping(address => uint)`) to remember who (their `address`) voted for which candidate. Think of it as a digital voting booth. This teaches you how to manage data in a structured way.",
       "logicalProgression": "Introduces complex data structures (arrays, mappings) and logic."
     },
     {
