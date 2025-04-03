@@ -18,7 +18,7 @@
       "exampleApplication": "Imagine creating a basic profile. You'll make a contract where users can save their name (like 'Alice') and a short bio (like 'I build dApps'). You'll learn how to store text (using `string`) on the blockchain. Then, you'll create functions to let users save and retrieve this information. This demonstrates how to store and retrieve data on the blockchain, essential for building profiles or user data storage.",
       "logicalProgression": "Introduces data types and state management.",
       "youtubeLink": "https://youtu.be/jMxpX_OiW4g",
-      "solutionLink": "https://www.notion.so/builder-hub/SaveMyName-Contract-1c15720a23ef801a8a42eedbae041ea9"
+      "solutionLink": "https://builder-hub.notion.site/Admin-Only-Contract-1ca5720a23ef804cbd61dc3ca3d380df?pvs=4"
     },
     {
       "day": 3,
@@ -26,7 +26,9 @@
       "contractName": "PollStation.sol",
       "conceptsTaught": ["Arrays (uint[])", "Mappings (mapping(address => uint))", "Simple voting logic"],
       "exampleApplication": "Let's build a simple polling station! Users will be able to vote for their favorite candidates. You'll use lists (arrays, `uint[]`) to store candidate details. You'll also create a system (mappings, `mapping(address => uint)`) to remember who (their `address`) voted for which candidate. Think of it as a digital voting booth. This teaches you how to manage data in a structured way.",
-      "logicalProgression": "Introduces complex data structures (arrays, mappings) and logic."
+      "logicalProgression": "Introduces complex data structures (arrays, mappings) and logic.",
+      "youtubeLink": "https://youtu.be/uBre8NtNKxY",
+      "solutionLink": "https://www.notion.so/builder-hub/PollStation-Contract-1c25720a23ef802c9d9be066debb9bbd"
     },
     {
       "day": 4,
