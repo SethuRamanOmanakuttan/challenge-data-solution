@@ -36,7 +36,9 @@
       "contractName": "AuctionHouse.sol",
       "conceptsTaught": ["if/else statements", "Time (block.timestamp)", "Basic bidding"],
       "exampleApplication": "Create a basic auction! Users can bid on an item, and the highest bidder wins when time runs out. You'll use 'if/else' to decide who wins based on the highest bid and track time using the blockchain's clock (`block.timestamp`). This is like a simple version of eBay on the blockchain, showing how to control logic based on conditions and time.",
-      "logicalProgression": "Adds control flow and time management."
+      "logicalProgression": "Adds control flow and time management.",
+      "youtubeLink": "https://youtu.be/OI9x4G6Tu-k",
+      "solutionLink": "https://builder-hub.notion.site/AuctionHouse-Contract-1c35720a23ef80198952efbbe2554608?pvs=4"
     },
     {
       "day": 5,
