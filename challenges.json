@@ -46,7 +46,9 @@
       "contractName": "AdminOnly.sol",
       "conceptsTaught": ["modifier", "msg.sender for ownership", "Basic access control"],
       "exampleApplication": "Build a contract that simulates a treasure chest controlled by an owner. The owner can add treasure, approve withdrawals for specific users, and even withdraw treasure themselves. Other users can attempt to withdraw, but only if the owner has given them an allowance and they haven't withdrawn before. The owner can also reset withdrawal statuses and transfer ownership of the treasure chest. This demonstrates how to create a contract with restricted access using a 'modifier' and `msg.sender`, similar to how only an admin can perform certain actions in a game or application.",
-      "logicalProgression": "Introduces basic access control patterns."
+      "logicalProgression": "Introduces basic access control patterns.",
+      "youtubeLink": "https://youtu.be/MCz9RrQfpj8",
+      "solutionLink": "https://builder-hub.notion.site/Admin-Only-Contract-1ca5720a23ef804cbd61dc3ca3d380df?pvs=4"
     },
     {
       "day": 6,
