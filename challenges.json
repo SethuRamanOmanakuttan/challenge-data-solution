@@ -56,7 +56,9 @@
       "contractName": "EtherPiggyBank.sol",
       "conceptsTaught": ["msg.sender", "address", "Ether balance", "Deposits and withdrawals"],
       "exampleApplication": "Let's make a digital piggy bank! Users can deposit and withdraw Ether (the cryptocurrency). You'll learn how to manage balances (using `address` to identify users) and track who sent Ether (using `msg.sender`). It's like a simple bank account on the blockchain, demonstrating how to handle Ether and user addresses.",
-      "logicalProgression": "Applies address type, msg.sender, and Ether handling."
+      "logicalProgression": "Applies address type, msg.sender, and Ether handling.",
+      "youtubeLink": "https://youtu.be/sxWujOuZRuw",
+      "solutionLink": "https://builder-hub.notion.site/The-Ether-Piggy-Bank-1cd5720a23ef802dbd15e2a7b3a7f3d2?pvs=4"
     },
     {
       "day": 7,
