@@ -63,10 +63,10 @@
     {
       "day": 7,
       "week": "Week 1: Solidity Fundamentals",
-      "contractName": "SendSomeTokens.sol",
+      "contractName": "SimpleIOU.sol",
       "conceptsTaught": ["address", "token transfer", "payable for gas", "validation (require)"],
-      "exampleApplication": "Build a contract to send tokens (digital assets) to other users. You'll learn how to transfer tokens between `address`es, understand gas fees (the cost of using the blockchain; using `payable`), and make sure everything is done correctly (using `require` for validation). It's like sending digital money to a friend, showing how to manage token transfers and handle gas.",
-      "logicalProgression": "Introduces token basics and gas handling."
+      "exampleApplication": "Build a simple IOU contract for a private group of friends. Each user can deposit ETH, track personal balances, log who owes who, and settle debts — all on-chain. You’ll learn how to accept real Ether using `payable`, transfer funds between addresses, and use nested mappings to represent relationships like 'Alice owes Bob'. This contract mirrors real-world borrowing and lending, and teaches you how to model those interactions in Solidity.",
+      "logicalProgression": "Extends personal balance tracking by introducing two-way interactions — debt recording, repayments, and actual ETH movement using `transfer` and `call`."
     },
     {
       "day": 8,
