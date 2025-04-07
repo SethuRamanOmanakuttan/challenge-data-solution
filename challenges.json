@@ -66,7 +66,9 @@
       "contractName": "SimpleIOU.sol",
       "conceptsTaught": ["address", "token transfer", "payable for gas", "validation (require)"],
       "exampleApplication": "Build a simple IOU contract for a private group of friends. Each user can deposit ETH, track personal balances, log who owes who, and settle debts — all on-chain. You’ll learn how to accept real Ether using `payable`, transfer funds between addresses, and use nested mappings to represent relationships like 'Alice owes Bob'. This contract mirrors real-world borrowing and lending, and teaches you how to model those interactions in Solidity.",
-      "logicalProgression": "Extends personal balance tracking by introducing two-way interactions — debt recording, repayments, and actual ETH movement using `transfer` and `call`."
+      "logicalProgression": "Extends personal balance tracking by introducing two-way interactions — debt recording, repayments, and actual ETH movement using `transfer` and `call`.",
+      "youtubeLink": "https://youtu.be/J0XWaNMFN-c",
+      "solutionLink": "https://builder-hub.notion.site/Simple-IOU-Contract-1ce5720a23ef80acbcb9dda43b5f803f?pvs=4"
     },
     {
       "day": 8,
