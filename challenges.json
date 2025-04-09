@@ -359,7 +359,7 @@
         {
             "day": 29,
             "week": "Week 4: Real-World Applications.sol",
-            "contractName": "Stablecoin",
+            "contractName": "Stablecoin.sol",
             "conceptsTaught": [
                 "Stablecoin implementation",
                 "peg mechanisms",
