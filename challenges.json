@@ -133,7 +133,6 @@
                 "Events",
                 "logging data",
                 "emitting events",
-                "basic debugging"
             ],
             "exampleApplication": "Build a smart contract that logs user workouts and emits a notification when fitness goals are met — like completing 10 workouts in a week or hitting 500 total minutes of exercise. Users submit their workout sessions (type, duration, calories, etc.), and the contract tracks their progress over time. When a milestone is reached, an event is emitted that can trigger a frontend alert, badge award, or off-chain reward. It’s like building the core logic behind a decentralized fitness tracker with achievement unlocks — showing how to use Solidity events for logging, progress tracking, and lightweight goal notifications without storing heavy data on-chain.",
             "logicalProgression": "Introduces event logging for debugging and tracking."
