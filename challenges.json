@@ -84,7 +84,7 @@
       "day": 9,
       "week": "Week 2: Intermediate Solidity",
       "contractName": "SmartCalculator.sol",
-      "conceptsTaught": ["Calling functions of another contract", "address casting"],
+      "conceptsTaught": ["Calling functions of another contract", "address casting", "imports"],
       "exampleApplication": "Build a contract that uses another contract to do calculations. You'll learn how contracts can talk to each other by calling functions of other contracts (using `address casting`). It's like having one app ask another app to do some math, showing how to interact with other contracts.",
       "logicalProgression": "Introduces inter-contract communication."
     },
