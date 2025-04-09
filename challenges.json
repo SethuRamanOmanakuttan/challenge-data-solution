@@ -123,7 +123,9 @@
                 "imports"
             ],
             "exampleApplication": "Build a contract that uses another contract to do calculations. You'll learn how contracts can talk to each other by calling functions of other contracts (using `address casting`). It's like having one app ask another app to do some math, showing how to interact with other contracts.",
-            "logicalProgression": "Introduces inter-contract communication."
+            "logicalProgression": "Introduces inter-contract communication.",
+            "youtubeLink": "https://youtu.be/AUA6yZBabJ0",
+            "solutionLink": "https://builder-hub.notion.site/Smart-Calculator-1d05720a23ef803a86e3e16d534b51ab?pvs=4"
         },
         {
             "day": 10,
