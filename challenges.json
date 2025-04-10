@@ -138,7 +138,9 @@
                     "emitting events"
                 ],
             "exampleApplication": "Create a smart contract that logs user workouts and emits events when fitness goals are reached — like 10 workouts in a week or 500 total minutes. Users log each session (type, duration, calories), and the contract tracks progress. Events use *indexed* parameters to make it easy for frontends or off-chain tools to filter logs by user and milestone — just like a backend for a decentralized fitness tracker with achievement unlocks.",
-            "logicalProgression": "Introduces event logging for debugging and tracking."
+            "logicalProgression": "Introduces event logging for debugging and tracking.",
+            "youtubeLink": "https://youtu.be/QgtW7mwRPC0",
+            "solutionLink": "https://builder-hub.notion.site/ActivityTracker-Contract-1d15720a23ef8065a8d4f1ccd61800e0?pvs=4"
         },
         {
             "day": 11,
