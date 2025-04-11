@@ -152,7 +152,9 @@
                 "robust access control"
             ],
             "exampleApplication": "Build a secure Vault contract that only the owner (master key holder) can control. You'll split your logic into two parts: a reusable 'Ownable' base contract and a 'VaultMaster' contract that inherits from it. Only the owner can withdraw funds or transfer ownership. This shows how to use Solidity's inheritance model to write clean, reusable access control patterns — just like in real-world production contracts. It's like building a secure digital safe where only the master key holder can access or delegate control.",
-            "logicalProgression": "Builds on basic ownership with a modular, inheritance-based access control pattern."
+            "logicalProgression": "Builds on basic ownership with a modular, inheritance-based access control pattern.",
+            "youtubeLink": "https://youtu.be/irc--Pts8zw",
+            "solutionLink": "https://builder-hub.notion.site/Masterkey-Contract-1d25720a23ef803db49dfc8693959f3c?pvs=4"
         },
         {
             "day": 12,
