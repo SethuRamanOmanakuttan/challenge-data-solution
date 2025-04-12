@@ -168,7 +168,9 @@
                 "token basics"
             ],
             "exampleApplication": "Let's make your own digital currency! You'll create a basic token that can be transferred between users, implementing the ERC20 standard. It's like creating your own in-game money, demonstrating how to create and manage tokens.",
-            "logicalProgression": "Introduces standardized token interfaces."
+            "logicalProgression": "Introduces standardized token interfaces.",
+            "youtubeLink": "https://youtu.be/59b60LEo1Lo",
+            "solutionLink": "https://builder-hub.notion.site/MyFirstToken-Contract-1d35720a23ef80b2b190c3b122c2290f?pvs=4"
         },
         {
             "day": 13,
