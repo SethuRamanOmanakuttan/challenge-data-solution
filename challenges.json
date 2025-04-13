@@ -182,7 +182,9 @@
                 "token economics"
             ],
             "exampleApplication": "Build a contract to sell your tokens for Ether. You'll learn how to set a price and manage sales, demonstrating token economics. It's like a pre-sale for your digital currency, showing how to sell tokens for Ether.",
-            "logicalProgression": "Applies ERC20 concepts to a real-world scenario."
+            "logicalProgression": "Applies ERC20 concepts to a real-world scenario.",
+            "youtubeLink": "https://youtu.be/P8qmIlSLOLA",
+            "solutionLink": "https://builder-hub.notion.site/PreorderTokens-1d45720a23ef80878624e2c98aab1552?pvs=4"
         },
         {
             "day": 14,
