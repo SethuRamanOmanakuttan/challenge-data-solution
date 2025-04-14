@@ -197,7 +197,9 @@
                 "Contract-to-contract interaction"
             ],
             "exampleApplication": "Build a smart bank that offers different types of deposit boxes — basic, premium, time-locked, etc. Each box follows a common interface and supports ownership transfer. A central VaultManager contract interacts with all deposit boxes in a unified way, letting users store secrets and transfer ownership like handing over the key to a digital locker. This teaches interface design, modularity, and how contracts communicate with each other safely.",
-            "logicalProgression": "Extends ownership and access control by introducing standardized interaction between modular contracts and enabling transferable access through interfaces."
+            "logicalProgression": "Extends ownership and access control by introducing standardized interaction between modular contracts and enabling transferable access through interfaces.",
+            "youtubeLink": "https://youtu.be/cqZ9gBj5S-A",
+            "solutionLink": "https://builder-hub.notion.site/SafeDeposit-contract-1d55720a23ef80c1b2d0ebccd0fd594d?pvs=4"
         },
         {
             "day": 15,
