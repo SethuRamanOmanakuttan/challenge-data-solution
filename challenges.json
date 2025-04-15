@@ -212,7 +212,9 @@
                 "Minimizing storage writes"
             ],
             "exampleApplication": "Build a simple voting system where users can vote on proposals. Your challenge is to make it as gas-efficient as possible. Optimize how you store voter data, handle input parameters, and design functions. You'll learn how `calldata`, `memory`, and `storage` affect gas usage and discover small changes that lead to big savings. It's like designing a voting machine that runs faster and cheaper without losing accuracy.",
-            "logicalProgression": "Applies earlier knowledge of storage by challenging learners to minimize gas costs in a real-world contract scenario."
+            "logicalProgression": "Applies earlier knowledge of storage by challenging learners to minimize gas costs in a real-world contract scenario.",
+            "youtubeLink": "https://youtu.be/AeVctT0E61s",
+            "solutionLink": "https://builder-hub.notion.site/Gas-Efficient-Voting-1d65720a23ef80dca7dcee996bbe510a?pvs=4"
         },
         {
             "day": 16,
