@@ -253,7 +253,9 @@
                 "fetching off-chain data"
             ],
             "exampleApplication": "Build a smart contract that retrieves live weather data using an oracle like Chainlink. You'll create a decentralized crop insurance contract where farmers can claim insurance if rainfall drops below a certain threshold during the growing season. Since the Ethereum blockchain can't access real-world data on its own, you'll use an oracle to fetch off-chain weather information and trigger payouts automatically. This project demonstrates how to securely integrate external data into your contract logic and highlights the power of real-world connectivity in smart contracts.",
-            "logicalProgression": "Introduces external data integration."
+            "logicalProgression": "Introduces external data integration.",
+            "youtubeLink":"",
+            "solutionLink":"https://builder-hub.notion.site/Oracle-Contract-1d95720a23ef801da5afebc5873bcbf5?pvs=4"
         },
         {
             "day": 19,
