@@ -267,7 +267,9 @@
                 "basic authentication"
             ],
             "exampleApplication": "Build a secure signature-based entry system for a private Web3 event, like a conference, workshop, or token-gated meetup. Instead of storing an on-chain whitelist of attendees, your backend or event organizer signs a message for each approved guest. When attendees arrive, they submit their signed message to the smart contract to prove they were invited. The contract uses `ecrecover` to verify the signature on-chain, confirming their identity without needing any prior on-chain registration. This pattern drastically reduces gas costs, keeps the contract lightweight, and mirrors how many real-world events handle off-chain approvals with on-chain validation — a practical Web3 authentication flow.",
-            "logicalProgression": "Introduces cryptographic authentication."
+            "logicalProgression": "Introduces cryptographic authentication.",
+            "youtubeLink": "https://youtu.be/delfyPTbHY8",
+            "solutionLink": "https://builder-hub.notion.site/SignThis-Contract-1da5720a23ef80d69ae9c1559ba48a82?pvs=4"
         },
         {
             "day": 20,
