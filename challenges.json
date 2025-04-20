@@ -268,8 +268,8 @@
             ],
             "exampleApplication": "Build a secure signature-based entry system for a private Web3 event, like a conference, workshop, or token-gated meetup. Instead of storing an on-chain whitelist of attendees, your backend or event organizer signs a message for each approved guest. When attendees arrive, they submit their signed message to the smart contract to prove they were invited. The contract uses `ecrecover` to verify the signature on-chain, confirming their identity without needing any prior on-chain registration. This pattern drastically reduces gas costs, keeps the contract lightweight, and mirrors how many real-world events handle off-chain approvals with on-chain validation — a practical Web3 authentication flow.",
             "logicalProgression": "Introduces cryptographic authentication.",
-            "youtubeLink": "https://youtu.be/delfyPTbHY8",
-            "solutionLink": "https://builder-hub.notion.site/SignThis-Contract-1da5720a23ef80d69ae9c1559ba48a82?pvs=4"
+            "youtubeLink": "https://youtu.be/Q9oEHYQGQI4",
+            "solutionLink": "https://builder-hub.notion.site/FortKnox-Contract-1db5720a23ef80a4a303e3f1d63f8f3a?pvs=4"
         },
         {
             "day": 20,
@@ -281,7 +281,9 @@
                 "security best practices"
             ],
             "exampleApplication": "Build a secure digital vault where users can deposit and withdraw tokenized gold (or any valuable asset), ensuring it's protected from reentrancy attacks. Imagine you're creating a decentralized version of Fort Knox — users lock up tokenized gold, and can later withdraw it. But just like a real vault, this contract must prevent attackers from repeatedly triggering the withdrawal logic before the balance updates. You'll implement the `nonReentrant` modifier to block reentry attempts, and follow Solidity security best practices to lock down your contract. This project shows how a seemingly simple withdrawal function can become a vulnerability — and how to defend it properly.",
-            "logicalProgression": "Introduces critical security concepts."
+            "logicalProgression": "Introduces critical security concepts.",
+            "youtubeLink": "https://youtu.be/delfyPTbHY8",
+            "solutionLink": "https://builder-hub.notion.site/SignThis-Contract-1da5720a23ef80d69ae9c1559ba48a82?pvs=4"
         },
         {
             "day": 21,
