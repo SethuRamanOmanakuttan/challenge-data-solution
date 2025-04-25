@@ -352,7 +352,9 @@
                 "liquidity pools"
             ],
             "exampleApplication": "Build a system for trading tokens automatically. You'll learn how to create liquidity pools and implement the constant product formula, demonstrating AMM logic. It's like a digital exchange for tokens, showing how to create automated markets.",
-            "logicalProgression": "Introduces advanced DeFi with AMMs."
+            "logicalProgression": "Introduces advanced DeFi with AMMs.",
+            "youtubeLink": "https://youtu.be/xcaz8XQmtE8",
+            "solutionLink": "https://builder-hub.notion.site/Automated-Market-Maker-1df5720a23ef807cac40e0ddc4e22224?pvs=4"
         },
         {
             "day": 26,
