@@ -366,7 +366,9 @@
                 "royalties"
             ],
             "exampleApplication": "Build a marketplace for buying and selling NFTs. You'll learn how to manage listings and royalties, demonstrating NFT trading. It's like a digital store for collectibles, showing how to create NFT marketplaces.",
-            "logicalProgression": "Applies NFT standards to a marketplace."
+            "logicalProgression": "Applies NFT standards to a marketplace.",
+            "youtubeLink":"https://youtu.be/kNIzxWTi89g",
+            "solutionLink":"https://builder-hub.notion.site/NFT-Marketplace-1df5720a23ef8040b753eacf7bd9beb4?pvs=4"
         },
         {
             "day": 27,
