@@ -380,7 +380,9 @@
                 "reward distribution"
             ],
             "exampleApplication": "Build a system for earning rewards by staking tokens. You'll learn how to distribute rewards, demonstrating yield farming. It's like a digital savings account with interest, showing how to create yield farming platforms.",
-            "logicalProgression": "Builds on AMMs with yield farming."
+            "logicalProgression": "Builds on AMMs with yield farming.",
+            "youtubeLink":"",
+            "solutionLink":"https://builder-hub.notion.site/YieldFarming-Contract-1e25720a23ef8046ba76fcacffc66864?pvs=4"
         },
         {
             "day": 28,
