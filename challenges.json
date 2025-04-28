@@ -394,7 +394,9 @@
                 "token-based governance"
             ],
             "exampleApplication": "Build a system for voting on proposals. You'll learn how to create a digital organization where members can vote, demonstrating decentralized governance. It's like a digital democracy, showing how to create DAOs.",
-            "logicalProgression": "Introduces decentralized governance."
+            "logicalProgression": "Introduces decentralized governance.",
+            "youtubeLink":"",
+            "solutionLink":"https://builder-hub.notion.site/DecentralisedGovernance-Contract-1e25720a23ef8014a8caf30dca28fb9b?pvs=4"
         },
         {
             "day": 29,
