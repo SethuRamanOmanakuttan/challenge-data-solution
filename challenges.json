@@ -408,7 +408,9 @@
                 "price stability"
             ],
             "exampleApplication": "Build a digital currency that maintains a stable value. You'll learn how to keep the price steady using peg mechanisms, demonstrating stablecoin mechanics. It's like a digital dollar, showing how to create stablecoins.",
-            "logicalProgression": "Expands on DeFi with stablecoin mechanics."
+            "logicalProgression": "Expands on DeFi with stablecoin mechanics.",
+            "youtubeLink":"https://youtu.be/oyitivoEyEg",
+            "solutionLink":"https://builder-hub.notion.site/StableCoin-Contract-1e35720a23ef809f9875e8e244964c5b?pvs=4"
         },
         {
             "day": 30,
