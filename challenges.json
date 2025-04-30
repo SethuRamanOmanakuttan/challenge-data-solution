@@ -422,7 +422,9 @@
                 "liquidity pools"
             ],
             "exampleApplication": "Build a simple exchange for trading tokens. You'll learn how to create a digital marketplace using token swaps and liquidity pools. It's like a mini version of a stock exchange, demonstrating how to create decentralized exchanges.",
-            "logicalProgression": "Combines many DeFi concepts into a practical application."
+            "logicalProgression": "Combines many DeFi concepts into a practical application.",
+            "youtubeLink": "https://youtu.be/mcMp_X1pH4M",
+            "solutionLink": "https://builder-hub.notion.site/Day-30-The-Final-Build-Your-Own-Mini-DEX-1e45720a23ef80debfd5e4507d43b4ed?pvs=4"
         }
     ]
 }
