@@ -1,0 +1,430 @@
+{
+    "schedule": [
+        {
+            "day": 1,
+            "week": "Semana 1: Fundamentos de Solidity",
+            "contractName": "ClickCounter.sol",
+            "conceptsTaught": [
+                "Sintaxis básica de Solidity",
+                "Variables (uint)",
+                "Funciones de incremento/decremento"
+            ],
+            "exampleApplication": "¡Construyamos un contador simple! Imagina un clicker digital. Crearás una 'función' llamada `click()`. Cada vez que alguien llame a esta función, un número almacenado en el contrato (una 'variable') aumentará en uno. Aprenderás cómo declarar una variable para mantener un número (un `uint`) y crear funciones para cambiarlo (incrementar/decrementar). Este es el primer paso para crear contratos inteligentes interactivos, mostrando cómo almacenar y modificar datos.",
+            "logicalProgression": "Sintaxis fundamental y estructura básica del contrato.",
+            "youtubeLink": "https://youtu.be/7AoTBeDrFgk",
+            "solutionLink": "https://www.notion.so/builder-hub/ClickCounter-Contract-1c15720a23ef8001ac8fd21470d611c5"
+        },
+        {
+            "day": 2,
+            "week": "Semana 1: Fundamentos de Solidity",
+            "contractName": "SaveMyName.sol",
+            "conceptsTaught": [
+                "Variables de estado (string, bool)",
+                "Almacenamiento y recuperación"
+            ],
+            "exampleApplication": "Imagina crear un perfil básico. Harás un contrato donde los usuarios pueden guardar su nombre (como 'Alice') y una biografía corta (como 'Construyo dApps'). Aprenderás cómo almacenar texto (usando `string`) en la blockchain. Luego, crearás funciones para permitir a los usuarios guardar y recuperar esta información. Esto demuestra cómo almacenar y recuperar datos en la blockchain, esencial para construir perfiles o almacenamiento de datos de usuarios.",
+            "logicalProgression": "Introduce tipos de datos y gestión de estado.",
+            "youtubeLink": "https://youtu.be/jMxpX_OiW4g",
+            "solutionLink": "https://builder-hub.notion.site/SaveMyName-Contract-1c15720a23ef801a8a42eedbae041ea9"
+        },
+        {
+            "day": 3,
+            "week": "Semana 1: Fundamentos de Solidity",
+            "contractName": "PollStation.sol",
+            "conceptsTaught": [
+                "Arrays (uint[])",
+                "Mapeos (mapping(address => uint))",
+                "Lógica de votación simple"
+            ],
+            "exampleApplication": "¡Construyamos una estación de votación simple! Los usuarios podrán votar por sus candidatos favoritos. Usarás listas (arrays, `uint[]`) para almacenar detalles de candidatos. También crearás un sistema (mapeos, `mapping(address => uint)`) para recordar quién (su `address`) votó por qué candidato. Piénsalo como una cabina de votación digital. Esto te enseña cómo gestionar datos de manera estructurada.",
+            "logicalProgression": "Introduce estructuras de datos complejas (arrays, mapeos) y lógica.",
+            "youtubeLink": "https://youtu.be/uBre8NtNKxY",
+            "solutionLink": "https://www.notion.so/builder-hub/PollStation-Contract-1c25720a23ef802c9d9be066debb9bbd"
+        },
+        {
+            "day": 4,
+            "week": "Semana 1: Fundamentos de Solidity",
+            "contractName": "AuctionHouse.sol",
+            "conceptsTaught": [
+                "Declaraciones if/else",
+                "Tiempo (block.timestamp)",
+                "Ofertas básicas"
+            ],
+            "exampleApplication": "¡Crea una subasta básica! Los usuarios pueden ofertar por un artículo, y el mayor postor gana cuando se acaba el tiempo. Usarás 'if/else' para decidir quién gana basándose en la oferta más alta y seguir el tiempo usando el reloj de la blockchain (`block.timestamp`). Esto es como una versión simple de eBay en la blockchain, mostrando cómo controlar la lógica basada en condiciones y tiempo.",
+            "logicalProgression": "Añade flujo de control y gestión del tiempo.",
+            "youtubeLink": "https://youtu.be/OI9x4G6Tu-k",
+            "solutionLink": "https://builder-hub.notion.site/AuctionHouse-Contract-1c35720a23ef80198952efbbe2554608?pvs=4"
+        },
+        {
+            "day": 5,
+            "week": "Semana 1: Fundamentos de Solidity",
+            "contractName": "AdminOnly.sol",
+            "conceptsTaught": [
+                "modifier",
+                "msg.sender para propiedad",
+                "Control de acceso básico"
+            ],
+            "exampleApplication": "Construye un contrato que simula un cofre del tesoro controlado por un propietario. El propietario puede añadir tesoro, aprobar retiros para usuarios específicos, e incluso retirar tesoro él mismo. Otros usuarios pueden intentar retirar, pero solo si el propietario les ha dado una asignación y no han retirado antes. El propietario también puede restablecer estados de retiro y transferir la propiedad del cofre del tesoro. Esto demuestra cómo crear un contrato con acceso restringido usando un 'modifier' y `msg.sender`, similar a cómo solo un admin puede realizar ciertas acciones en un juego o aplicación.",
+            "logicalProgression": "Introduce patrones básicos de control de acceso.",
+            "youtubeLink": "https://youtu.be/MCz9RrQfpj8",
+            "solutionLink": "https://builder-hub.notion.site/Admin-Only-Contract-1ca5720a23ef804cbd61dc3ca3d380df?pvs=4"
+        },
+        {
+            "day": 6,
+            "week": "Semana 1: Fundamentos de Solidity",
+            "contractName": "EtherPiggyBank.sol",
+            "conceptsTaught": [
+                "msg.sender",
+                "address",
+                "Balance de Ether",
+                "Depósitos y retiros"
+            ],
+            "exampleApplication": "¡Hagamos una alcancía digital! Los usuarios pueden depositar y retirar Ether (la criptomoneda). Aprenderás cómo gestionar saldos (usando `address` para identificar usuarios) y rastrear quién envió Ether (usando `msg.sender`). Es como una cuenta bancaria simple en la blockchain, demostrando cómo manejar Ether y direcciones de usuarios.",
+            "logicalProgression": "Aplica el tipo address, msg.sender, y manejo de Ether.",
+            "youtubeLink": "https://youtu.be/sxWujOuZRuw",
+            "solutionLink": "https://builder-hub.notion.site/The-Ether-Piggy-Bank-1cd5720a23ef802dbd15e2a7b3a7f3d2?pvs=4"
+        },
+        {
+            "day": 7,
+            "week": "Semana 1: Fundamentos de Solidity",
+            "contractName": "SimpleIOU.sol",
+            "conceptsTaught": [
+                "address",
+                "transferencia de tokens",
+                "payable para gas",
+                "validación (require)"
+            ],
+            "exampleApplication": "Construye un contrato IOU simple para un grupo privado de amigos. Cada usuario puede depositar ETH, rastrear saldos personales, registrar quién debe a quién, y liquidar deudas — todo en cadena. Aprenderás cómo aceptar Ether real usando `payable`, transferir fondos entre direcciones, y usar mapeos anidados para representar relaciones como 'Alice debe a Bob'. Este contrato refleja préstamos y empréstitos del mundo real, y te enseña cómo modelar esas interacciones en Solidity.",
+            "logicalProgression": "Extiende el seguimiento de saldo personal introduciendo interacciones bidireccionales — registro de deudas, reembolsos, y movimiento real de ETH usando `transfer` y `call`.",
+            "youtubeLink": "https://youtu.be/J0XWaNMFN-c",
+            "solutionLink": "https://builder-hub.notion.site/Simple-IOU-Contract-1ce5720a23ef80acbcb9dda43b5f803f?pvs=4"
+        },
+        {
+            "day": 8,
+            "week": "Semana 2: Solidity Intermedio",
+            "contractName": "TipJar.sol",
+            "conceptsTaught": [
+                "conversión",
+                "denominaciones",
+                "payable"
+            ],
+            "exampleApplication": "¡Construye una jarra de propinas digital multi-moneda! Los usuarios pueden enviar Ether directamente o simular propinas en monedas extranjeras como USD o EUR. Aprenderás cómo manejar conversión de moneda, manejar pagos de Ether usando `payable` y `msg.value`, y llevar registro de contribuciones individuales. Piénsalo como una versión avanzada de un botón 'Cómprame un Café' — pero más inteligente, más global, y potenciado por Solidity.",
+            "logicalProgression": "Expande las transferencias básicas de Ether introduciendo control de acceso, seguimiento de contribuciones, y simulando manejo de moneda del mundo real — preparándote para lógica de contrato más compleja.",
+            "youtubeLink": "https://youtu.be/zidzGRim__I",
+            "solutionLink": "https://builder-hub.notion.site/TipJar-Contract-1cf5720a23ef80e2acf8ebd862a85f27?pvs=4"
+        },
+        {
+            "day": 9,
+            "week": "Semana 2: Solidity Intermedio",
+            "contractName": "SmartCalculator.sol",
+            "conceptsTaught": [
+                "Llamar funciones de otro contrato",
+                "conversión de address",
+                "importaciones"
+            ],
+            "exampleApplication": "Construye un contrato que usa otro contrato para hacer cálculos. Aprenderás cómo los contratos pueden hablar entre sí llamando funciones de otros contratos (usando `conversión de address`). Es como tener una app pidiendo a otra app que haga algunas matemáticas, mostrando cómo interactuar con otros contratos.",
+            "logicalProgression": "Introduce comunicación entre contratos.",
+            "youtubeLink": "https://youtu.be/AUA6yZBabJ0",
+            "solutionLink": "https://builder-hub.notion.site/Smart-Calculator-1d05720a23ef803a86e3e16d534b51ab?pvs=4"
+        },
+        {
+            "day": 10,
+            "week": "Semana 2: Solidity Intermedio",
+            "contractName": "ActivityTracker.sol",
+            "conceptsTaught": [
+                "Events",
+                "registrar datos",
+                "Parámetros indexados",
+                "emitir eventos"
+            ],
+            "exampleApplication": "Crea un contrato inteligente que registra entrenamientos de usuarios y emite eventos cuando se alcanzan objetivos de fitness — como 10 entrenamientos en una semana o 500 minutos totales. Los usuarios registran cada sesión (tipo, duración, calorías), y el contrato rastrea el progreso. Los eventos usan parámetros *indexados* para hacer fácil que frontends o herramientas fuera de cadena filtren registros por usuario e hito — justo como un backend para un rastreador de fitness descentralizado con desbloqueos de logros.",
+            "logicalProgression": "Introduce registro de eventos para depuración y seguimiento.",
+            "youtubeLink": "https://youtu.be/QgtW7mwRPC0",
+            "solutionLink": "https://builder-hub.notion.site/ActivityTracker-Contract-1d15720a23ef8065a8d4f1ccd61800e0?pvs=4"
+        },
+        {
+            "day": 11,
+            "week": "Semana 2: Solidity Intermedio",
+            "contractName": "MasterKey.sol",
+            "conceptsTaught": [
+                "Patrón Ownable",
+                "herencia",
+                "control de acceso robusto"
+            ],
+            "exampleApplication": "Construye un contrato de Bóveda seguro que solo el propietario (poseedor de llave maestra) puede controlar. Dividirás tu lógica en dos partes: un contrato base 'Ownable' reutilizable y un contrato 'VaultMaster' que hereda de él. Solo el propietario puede retirar fondos o transferir propiedad. Esto muestra cómo usar el modelo de herencia de Solidity para escribir patrones de control de acceso limpios y reutilizables — justo como en contratos de producción del mundo real. Es como construir una caja fuerte digital segura donde solo el poseedor de la llave maestra puede acceder o delegar control.",
+            "logicalProgression": "Construye sobre propiedad básica con un patrón de control de acceso modular, basado en herencia.",
+            "youtubeLink": "https://youtu.be/irc--Pts8zw",
+            "solutionLink": "https://builder-hub.notion.site/Masterkey-Contract-1d25720a23ef803db49dfc8693959f3c?pvs=4"
+        },
+        {
+            "day": 12,
+            "week": "Semana 2: Solidity Intermedio",
+            "contractName": "MyFirstToken.sol",
+            "conceptsTaught": [
+                "Interfaz ERC20",
+                "totalSupply",
+                "balanceOf",
+                "transfer",
+                "básicos de tokens"
+            ],
+            "exampleApplication": "¡Hagamos tu propia moneda digital! Crearás un token básico que puede ser transferido entre usuarios, implementando el estándar ERC20. Es como crear tu propio dinero del juego, demostrando cómo crear y gestionar tokens.",
+            "logicalProgression": "Introduce interfaces de token estandarizadas.",
+            "youtubeLink": "https://youtu.be/59b60LEo1Lo",
+            "solutionLink": "https://builder-hub.notion.site/MyFirstToken-Contract-1d35720a23ef80b2b190c3b122c2290f?pvs=4"
+        },
+        {
+            "day": 13,
+            "week": "Semana 2: Solidity Intermedio",
+            "contractName": "PreorderTokens.sol",
+            "conceptsTaught": [
+                "Vender tokens por Ether",
+                "cálculos de tasa",
+                "economía de tokens"
+            ],
+            "exampleApplication": "Construye un contrato para vender tus tokens por Ether. Aprenderás cómo establecer un precio y gestionar ventas, demostrando economía de tokens. Es como una preventa para tu moneda digital, mostrando cómo vender tokens por Ether.",
+            "logicalProgression": "Aplica conceptos ERC20 a un escenario del mundo real.",
+            "youtubeLink": "https://youtu.be/P8qmIlSLOLA",
+            "solutionLink": "https://builder-hub.notion.site/PreorderTokens-1d45720a23ef80878624e2c98aab1552?pvs=4"
+        },
+        {
+            "day": 14,
+            "week": "Semana 3: Solidity Avanzado",
+            "contractName": "SafeDepositBox.sol",
+            "conceptsTaught": [
+                "Interfaces",
+                "Abstracción",
+                "Transferencia de Propiedad",
+                "Interacción contrato-a-contrato"
+            ],
+            "exampleApplication": "Construye un banco inteligente que ofrece diferentes tipos de cajas de depósito — básica, premium, bloqueada por tiempo, etc. Cada caja sigue una interfaz común y soporta transferencia de propiedad. Un contrato central VaultManager interactúa con todas las cajas de depósito de manera unificada, permitiendo a los usuarios almacenar secretos y transferir propiedad como entregar la llave a un casillero digital. Esto enseña diseño de interfaz, modularidad, y cómo los contratos se comunican entre sí de manera segura.",
+            "logicalProgression": "Extiende propiedad y control de acceso introduciendo interacción estandarizada entre contratos modulares y habilitando acceso transferible a través de interfaces.",
+            "youtubeLink": "https://youtu.be/cqZ9gBj5S-A",
+            "solutionLink": "https://builder-hub.notion.site/SafeDeposit-contract-1d55720a23ef80c1b2d0ebccd0fd594d?pvs=4"
+        },
+        {
+            "day": 15,
+            "week": "Semana 3: Solidity Avanzado",
+            "contractName": "GasSaver.sol",
+            "conceptsTaught": [
+                "Optimización de gas",
+                "Ubicaciones de datos eficientes",
+                "Calldata vs memory",
+                "Minimizar escrituras de storage"
+            ],
+            "exampleApplication": "Construye un sistema de votación simple donde los usuarios pueden votar en propuestas. Tu desafío es hacerlo lo más eficiente en gas posible. Optimiza cómo almacenas datos de votantes, manejas parámetros de entrada, y diseñas funciones. Aprenderás cómo `calldata`, `memory`, y `storage` afectan el uso de gas y descubrirás pequeños cambios que llevan a grandes ahorros. Es como diseñar una máquina de votación que funciona más rápido y más barato sin perder precisión.",
+            "logicalProgression": "Aplica conocimiento previo de almacenamiento desafiando a los aprendices a minimizar costos de gas en un escenario de contrato del mundo real.",
+            "youtubeLink": "https://youtu.be/AeVctT0E61s",
+            "solutionLink": "https://builder-hub.notion.site/Gas-Efficient-Voting-1d65720a23ef80dca7dcee996bbe510a?pvs=4"
+        },
+        {
+            "day": 16,
+            "week": "Semana 3: Solidity Avanzado",
+            "contractName": "PluginStore.sol",
+            "conceptsTaught": [
+                "delegatecall",
+                "contexto de ejecución de código",
+                "bibliotecas"
+            ],
+            "exampleApplication": "Construye un sistema de perfil modular para un juego Web3. El contrato principal almacena el perfil básico de cada jugador (como nombre y avatar), pero los jugadores pueden activar 'plugins' opcionales para añadir características extra como logros, gestión de inventario, estadísticas de batalla, o interacciones sociales. Cada plugin es un contrato separado con su propia lógica, y el contrato principal usa `delegatecall` para ejecutar funciones de plugin manteniendo todos los datos en el perfil principal. Esto permite a los desarrolladores añadir o actualizar características sin redesplegar el contrato principal—justo como instalar nuevos complementos en un juego. Aprenderás cómo usar `delegatecall` de manera segura, gestionar contexto de ejecución, y organizar lógica externa de manera modular.",
+            "logicalProgression": "Introduce control de ejecución avanzado.",
+            "youtubeLink": "https://youtu.be/3j-SrLl412o",
+            "solutionLink": "https://builder-hub.notion.site/PluginStore-Contract-1d75720a23ef803693fafcd0f7fdb162?pvs=4"
+        },
+        {
+            "day": 17,
+            "week": "Semana 3: Solidity Avanzado",
+            "contractName": "UpgradeHub.sol",
+            "conceptsTaught": [
+                "Contratos actualizables",
+                "patrón proxy",
+                "delegate call para actualizaciones"
+            ],
+            "exampleApplication": "Construye un gestor de suscripciones actualizable para una dApp tipo SaaS. El contrato proxy almacena información de suscripción de usuarios (como planes, renovaciones, y fechas de expiración), mientras que la lógica para gestionar suscripciones—añadir planes, actualizar usuarios, pausar cuentas—vive en un contrato de lógica externo. Cuando es momento de añadir nuevas características o arreglar bugs, simplemente despliegas un nuevo contrato de lógica y apuntas el proxy a él usando `delegatecall`, sin migrar ningún dato. Esto simula cómo las apps del mundo real envían actualizaciones sin pedir a los usuarios que reinstalen. Aprenderás cómo arquitecturar contratos seguros para actualización usando el patrón proxy y `delegatecall`, separando almacenamiento de lógica para mantenibilidad a largo plazo.",
+            "logicalProgression": "Aplica delegatecall a actualizaciones de contratos.",
+            "youtubeLink": "https://youtu.be/4AXyPg4GwHU",
+            "solutionLink": "https://builder-hub.notion.site/UpgradeHub-1d85720a23ef80e59a26c747bdf1d968?pvs=4"
+        },
+        {
+            "day": 18,
+            "week": "Semana 3: Solidity Avanzado",
+            "contractName": "WeatherOracle.sol",
+            "conceptsTaught": [
+                "Interactuar con oráculos",
+                "obtener datos fuera de cadena"
+            ],
+            "exampleApplication": "Construye un contrato inteligente que recupera datos meteorológicos en vivo usando un oráculo como Chainlink. Crearás un contrato de seguro de cultivos descentralizado donde los agricultores pueden reclamar seguro si la lluvia cae por debajo de cierto umbral durante la temporada de crecimiento. Como la blockchain de Ethereum no puede acceder a datos del mundo real por sí sola, usarás un oráculo para obtener información meteorológica fuera de cadena y activar pagos automáticamente. Este proyecto demuestra cómo integrar de manera segura datos externos en tu lógica de contrato y destaca el poder de la conectividad del mundo real en contratos inteligentes.",
+            "logicalProgression": "Introduce integración de datos externos.",
+            "youtubeLink":"https://youtu.be/FnTUo_WWSTg",
+            "solutionLink":"https://builder-hub.notion.site/Oracle-Contract-1d95720a23ef801da5afebc5873bcbf5?pvs=4"
+        },
+        {
+            "day": 19,
+            "week": "Semana 3: Solidity Avanzado",
+            "contractName": "SignThis.sol",
+            "conceptsTaught": [
+                "ecrecover",
+                "verificar firmas",
+                "autenticación básica"
+            ],
+            "exampleApplication": "Construye un sistema de entrada seguro basado en firmas para un evento Web3 privado, como una conferencia, taller, o encuentro con acceso por token. En lugar de almacenar una lista blanca en cadena de asistentes, tu backend u organizador del evento firma un mensaje para cada invitado aprobado. Cuando los asistentes llegan, envían su mensaje firmado al contrato inteligente para probar que fueron invitados. El contrato usa `ecrecover` para verificar la firma en cadena, confirmando su identidad sin necesitar ningún registro previo en cadena. Este patrón reduce drásticamente los costos de gas, mantiene el contrato ligero, y refleja cómo muchos eventos del mundo real manejan aprobaciones fuera de cadena con validación en cadena — un flujo práctico de autenticación Web3.",
+            "logicalProgression": "Introduce autenticación criptográfica.",
+            "youtubeLink": "https://youtu.be/delfyPTbHY8",
+            "solutionLink": "https://builder-hub.notion.site/SignThis-Contract-1da5720a23ef80d69ae9c1559ba48a82?pvs=4"
+        },
+        {
+            "day": 20,
+            "week": "Semana 3: Solidity Avanzado",
+            "contractName": "FortKnox.sol",
+            "conceptsTaught": [
+                "Ataques de reentrada",
+                "modificador nonReentrant",
+                "mejores prácticas de seguridad"
+            ],
+            "exampleApplication": "Construye una bóveda digital segura donde los usuarios pueden depositar y retirar oro tokenizado (o cualquier activo valioso), asegurando que esté protegida de ataques de reentrada. Imagina que estás creando una versión descentralizada de Fort Knox — los usuarios bloquean oro tokenizado, y pueden retirarlo después. Pero justo como una bóveda real, este contrato debe prevenir que atacantes activen repetidamente la lógica de retiro antes de que el saldo se actualice. Implementarás el modificador `nonReentrant` para bloquear intentos de reentrada, y seguirás las mejores prácticas de seguridad de Solidity para asegurar tu contrato. Este proyecto muestra cómo una función de retiro aparentemente simple puede convertirse en una vulnerabilidad — y cómo defenderla apropiadamente.",
+            "logicalProgression": "Introduce conceptos críticos de seguridad.",
+            "youtubeLink": "https://youtu.be/Q9oEHYQGQI4",
+            "solutionLink": "https://builder-hub.notion.site/FortKnox-Contract-1db5720a23ef80a4a303e3f1d63f8f3a?pvs=4"
+
+        },
+        {
+            "day": 21,
+            "week": "Semana 4: Aplicaciones del Mundo Real",
+            "contractName": "SimpleNFT.sol",
+            "conceptsTaught": [
+                "Básicos de ERC721",
+                "acuñar NFTs",
+                "almacenamiento de metadatos"
+            ],
+            "exampleApplication": "¡Crea tus propios coleccionables digitales (NFTs)! Aprenderás cómo hacer artículos digitales únicos implementando el estándar ERC721 y almacenando metadatos. Es como crear cartas de intercambio digitales, demostrando creación de NFT.",
+            "logicalProgression": "Introduce estándares de NFT.",
+            "youtubeLink": "https://www.youtube.com/watch?v=DdvrGf5Rg4Q&t=2742s",
+            "solutionLink": "https://builder-hub.notion.site/SimpleNFT-1dc5720a23ef807da46fd1f75523bbb9?pvs=4"
+        },
+        {
+            "day": 22,
+            "week": "Semana 4: Aplicaciones del Mundo Real",
+            "contractName": "DecentralizedLottery.sol",
+            "conceptsTaught": [
+                "Chainlink VRF",
+                "generación de números aleatorios",
+                "lógica de lotería"
+            ],
+            "exampleApplication": "¡Construye una lotería justa y aleatoria! Aprenderás cómo usar servicios externos como Chainlink VRF para generar números aleatorios. Es como una lotería en la blockchain, demostrando cómo usar aleatoriedad externa.",
+            "logicalProgression": "Aplica datos externos y aleatoriedad a una aplicación práctica.",
+            "solutionLink":"https://builder-hub.notion.site/DecentralisedLottery-contract-1dd5720a23ef8030ab23ee0d8b2c2c2d?pvs=4",
+            "youtubeLink":"https://youtu.be/IciiaXNIscg"
+        },
+        {
+            "day": 23,
+            "week": "Semana 4: Aplicaciones del Mundo Real",
+            "contractName": "LendingPool.sol",
+            "conceptsTaught": [
+                "Préstamos/empréstitos",
+                "cálculos de interés",
+                "colateral"
+            ],
+            "exampleApplication": "Construye un sistema para prestar y pedir prestado activos digitales. Aprenderás cómo calcular interés y gestionar colateral, demostrando conceptos centrales de DeFi. Es como un banco digital para crypto, mostrando cómo crear plataformas de préstamo y empréstito.",
+            "logicalProgression": "Introduce conceptos centrales de DeFi.",
+            "solutionLink":"https://builder-hub.notion.site/LendingPool-Contract-1de5720a23ef80b69930c481a98072df?pvs=4",
+            "youtubeLink":"https://youtu.be/lnAFa73apAE"
+        },
+        {
+            "day": 24,
+            "week": "Semana 4: Aplicaciones del Mundo Real",
+            "contractName": "DecentralizedEscrow.sol",
+            "conceptsTaught": [
+                "Servicio de depósito en garantía",
+                "pagos condicionales",
+                "resolución de disputas"
+            ],
+            "exampleApplication": "Construye un sistema seguro para mantener fondos hasta que se cumplan las condiciones. Aprenderás cómo gestionar pagos y manejar disputas. Es como un intermediario digital para transacciones seguras, demostrando pagos condicionales seguros.",
+            "logicalProgression": "Se enfoca en transacciones seguras y condicionales.",
+            "youtubeLink":"https://youtu.be/Ar6AR6I-j-s",
+            "solutionLink":"https://builder-hub.notion.site/DecentraliseEscrow-Contract-1de5720a23ef8007a888eca6b48df76f?pvs=4"
+        },
+        {
+            "day": 25,
+            "week": "Semana 4: Aplicaciones del Mundo Real",
+            "contractName": "AutomatedMarketMaker.sol",
+            "conceptsTaught": [
+                "Lógica AMM",
+                "fórmula de producto constante",
+                "pools de liquidez"
+            ],
+            "exampleApplication": "Construye un sistema para intercambiar tokens automáticamente. Aprenderás cómo crear pools de liquidez e implementar la fórmula de producto constante, demostrando lógica AMM. Es como un intercambio digital para tokens, mostrando cómo crear mercados automatizados.",
+            "logicalProgression": "Introduce DeFi avanzado con AMMs.",
+            "youtubeLink": "https://youtu.be/xcaz8XQmtE8",
+            "solutionLink": "https://builder-hub.notion.site/Automated-Market-Maker-1df5720a23ef807cac40e0ddc4e22224?pvs=4"
+        },
+        {
+            "day": 26,
+            "week": "Semana 4: Aplicaciones del Mundo Real",
+            "contractName": "NFTMarketplace.sol",
+            "conceptsTaught": [
+                "Mercado de NFT",
+                "listar/comprar/vender",
+                "regalías"
+            ],
+            "exampleApplication": "Construye un mercado para comprar y vender NFTs. Aprenderás cómo gestionar listados y regalías, demostrando comercio de NFT. Es como una tienda digital para coleccionables, mostrando cómo crear mercados de NFT.",
+            "logicalProgression": "Aplica estándares de NFT a un mercado.",
+            "youtubeLink":"https://youtu.be/kNIzxWTi89g",
+            "solutionLink":"https://builder-hub.notion.site/NFT-Marketplace-1df5720a23ef8040b753eacf7bd9beb4?pvs=4"
+        },
+        {
+            "day": 27,
+            "week": "Semana 4: Aplicaciones del Mundo Real",
+            "contractName": "YieldFarming.sol",
+            "conceptsTaught": [
+                "Yield farming",
+                "staking",
+                "distribución de recompensas"
+            ],
+            "exampleApplication": "Construye un sistema para ganar recompensas apostando tokens. Aprenderás cómo distribuir recompensas, demostrando yield farming. Es como una cuenta de ahorros digital con interés, mostrando cómo crear plataformas de yield farming.",
+            "logicalProgression": "Construye sobre AMMs con yield farming.",
+            "youtubeLink":"https://youtu.be/Noly0ZUzfeE",
+            "solutionLink":"https://builder-hub.notion.site/YieldFarming-Contract-1e25720a23ef8046ba76fcacffc66864?pvs=4"
+        },
+        {
+            "day": 28,
+            "week": "Semana 4: Aplicaciones del Mundo Real",
+            "contractName": "DecentralizedGovernance.sol",
+            "conceptsTaught": [
+                "Estructura DAO",
+                "votación",
+                "gobernanza basada en tokens"
+            ],
+            "exampleApplication": "Construye un sistema para votar en propuestas. Aprenderás cómo crear una organización digital donde los miembros pueden votar, demostrando gobernanza descentralizada. Es como una democracia digital, mostrando cómo crear DAOs.",
+            "logicalProgression": "Introduce gobernanza descentralizada.",
+            "youtubeLink":"https://youtu.be/SoWNluca-Bk",
+            "solutionLink":"https://builder-hub.notion.site/DecentralisedGovernance-Contract-1e25720a23ef8014a8caf30dca28fb9b?pvs=4"
+        },
+        {
+            "day": 29,
+            "week": "Semana 4: Aplicaciones del Mundo Real",
+            "contractName": "Stablecoin.sol",
+            "conceptsTaught": [
+                "Implementación de stablecoin",
+                "mecanismos de paridad",
+                "estabilidad de precio"
+            ],
+            "exampleApplication": "Construye una moneda digital que mantiene un valor estable. Aprenderás cómo mantener el precio estable usando mecanismos de paridad, demostrando mecánicas de stablecoin. Es como un dólar digital, mostrando cómo crear stablecoins.",
+            "logicalProgression": "Expande en DeFi con mecánicas de stablecoin.",
+            "youtubeLink":"https://youtu.be/oyitivoEyEg",
+            "solutionLink":"https://builder-hub.notion.site/StableCoin-Contract-1e35720a23ef809f9875e8e244964c5b?pvs=4"
+        },
+        {
+            "day": 30,
+            "week": "Semana 4: Aplicaciones del Mundo Real",
+            "contractName": "MiniDex.sol",
+            "conceptsTaught": [
+                "Intercambio descentralizado mínimo",
+                "intercambios de tokens",
+                "pools de liquidez"
+            ],
+            "exampleApplication": "Construye un intercambio simple para comerciar tokens. Aprenderás cómo crear un mercado digital usando intercambios de tokens y pools de liquidez. Es como una versión mini de una bolsa de valores, demostrando cómo crear intercambios descentralizados.",
+            "logicalProgression": "Combina muchos conceptos DeFi en una aplicación práctica.",
+            "youtubeLink": "https://youtu.be/mcMp_X1pH4M",
+            "solutionLink": "https://builder-hub.notion.site/Day-30-The-Final-Build-Your-Own-Mini-DEX-1e45720a23ef80debfd5e4507d43b4ed?pvs=4"
+        }
+    ]
+}
