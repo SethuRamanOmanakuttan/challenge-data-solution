@@ -125,9 +125,19 @@
             "exampleApplication": "Build a contract that uses another contract to do calculations. You'll learn how contracts can talk to each other by calling functions of other contracts (using `address casting`). It's like having one app ask another app to do some math, showing how to interact with other contracts.",
             "logicalProgression": "Introduces inter-contract communication.",
             "youtubeLink": "https://youtu.be/AUA6yZBabJ0",
-            "solutionLink": "https://builder-hub.notion.site/Smart-Calculator-1d05720a23ef803a86e3e16d534b51ab?pvs=4"
+            "solutionLink": "https://builder-hub.notion.site/Smart-Calculator-1d05720a23ef803a86e3e16d534b51ab?pvs=4",
+            "sideTrack": {
+                "title": "Injective Precompiles – Blockchain Cheat Codes",
+                "conceptsTaught": [
+                    "Precompiles are built-in contracts at fixed addresses on Injective",
+                    "They execute natively for high efficiency",
+                    "Provide access to Injective-specific features like the bank, staking, and exchange modules",
+                    "Allow contracts to interact with chain-native modules without writing complex logic"
+                ],
+                "exampleApplication": "Exploring the Bank precompile on Injective: see how you can query account balances and token transfers instantly, without writing a full banking contract."
+            }
         },
-        {
+      {
             "day": 10,
             "week": "Week 2: Intermediate Solidity",
             "contractName": "ActivityTracker.sol",
