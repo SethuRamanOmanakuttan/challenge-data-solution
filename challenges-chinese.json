@@ -351,20 +351,30 @@
          "youtubeLink":"https://youtu.be/Ar6AR6I-j-s",
          "solutionLink":"https://builder-hub.notion.site/DecentraliseEscrow-Contract-1de5720a23ef8007a888eca6b48df76f?pvs=4"
       },
-      {
-         "day":25,
-         "week":"第4周：现实世界应用",
-         "contractName":"AutomatedMarketMaker.sol",
-         "conceptsTaught":[
-            "AMM逻辑",
-            "恒定乘积公式",
-            "流动性池"
-         ],
-         "exampleApplication":"构建一个自动交易代币的系统。你将学习如何创建流动性池并实现恒定乘积公式，展示AMM逻辑。这就像代币的数字交易所，展示了如何创建自动化市场。",
-         "logicalProgression":"引入高级DeFi与AMM。",
-         "youtubeLink":"https://youtu.be/xcaz8XQmtE8",
-         "solutionLink":"https://builder-hub.notion.site/Automated-Market-Maker-1df5720a23ef807cac40e0ddc4e22224?pvs=4"
-      },
+{
+    "day": 25,
+    "week": "第4周：现实世界应用",
+    "contractName": "AutomatedMarketMaker.sol",
+    "conceptsTaught": [
+        "AMM逻辑",
+        "常数乘积公式",
+        "流动性池"
+    ],
+    "exampleApplication": "构建一个自动交易代币的系统。你将学习如何创建流动性池并实现常数乘积公式，从而演示AMM逻辑。这就像一个数字代币交易所，展示如何创建自动化市场。",
+    "logicalProgression": "介绍带有AMM的高级DeFi。",
+    "youtubeLink": "https://youtu.be/xcaz8XQmtE8",
+    "solutionLink": "https://builder-hub.notion.site/Automated-Market-Maker-1df5720a23ef807cac40e0ddc4e22224?pvs=4",
+    "sideTrack": {
+        "title": "Injective CLOB – 订单簿力量",
+        "conceptsTaught": [
+            "CLOB（中央限价订单簿）是Injective上的链上订单簿系统",
+            "预编译合约将CLOB功能暴露给智能合约",
+            "允许从合约直接下单、取消订单和查询订单",
+            "为交易提供AMM的替代方案，实现更紧密的价差和更高的订单控制"
+        ],
+        "exampleApplication": "使用Injective的CLOB作为AMM的替代方案"
+    }
+},
       {
          "day":26,
          "week":"第4周：现实世界应用",
