@@ -1,439 +1,439 @@
 {
-    "schedule": [
-        {
-            "day": 1,
-            "week": "第1周：Solidity基础",
-            "contractName": "ClickCounter.sol",
-            "conceptsTaught": [
-                "基础Solidity语法",
-                "变量 (uint)",
-                "增减函数"
+   "schedule":[
+      {
+         "day":1,
+         "week":"第1周：Solidity基础",
+         "contractName":"ClickCounter.sol",
+         "conceptsTaught":[
+            "基础Solidity语法",
+            "变量 (uint)",
+            "增减函数"
+         ],
+         "exampleApplication":"让我们构建一个简单的计数器！想象一个数字点击器。你将创建一个名为 `click()` 的'函数'。每次有人调用这个函数，存储在合约中的数字（一个'变量'）就会增加一。你将学习如何声明一个变量来保存数字（一个 `uint`）并创建函数来改变它（增加/减少）。这是制作交互式智能合约的第一步，展示了如何存储和修改数据。",
+         "logicalProgression":"基础语法和基本合约结构。",
+         "youtubeLink":"https://youtu.be/7AoTBeDrFgk",
+         "solutionLink":"https://www.notion.so/builder-hub/ClickCounter-Contract-1c15720a23ef8001ac8fd21470d611c5"
+      },
+      {
+         "day":2,
+         "week":"第1周：Solidity基础",
+         "contractName":"SaveMyName.sol",
+         "conceptsTaught":[
+            "状态变量 (string, bool)",
+            "存储和检索"
+         ],
+         "exampleApplication":"想象创建一个基本档案。你将制作一个合约，用户可以保存他们的姓名（比如'Alice'）和简短的个人简介（比如'我构建dApps'）。你将学习如何在区块链上存储文本（使用 `string`）。然后，你将创建函数让用户保存和检索这些信息。这展示了如何在区块链上存储和检索数据，这对于构建档案或用户数据存储至关重要。",
+         "logicalProgression":"介绍数据类型和状态管理。",
+         "youtubeLink":"https://youtu.be/jMxpX_OiW4g",
+         "solutionLink":"https://builder-hub.notion.site/SaveMyName-Contract-1c15720a23ef801a8a42eedbae041ea9"
+      },
+      {
+         "day":3,
+         "week":"第1周：Solidity基础",
+         "contractName":"PollStation.sol",
+         "conceptsTaught":[
+            "数组 (uint[])",
+            "映射 (mapping(address => uint))",
+            "简单投票逻辑"
+         ],
+         "exampleApplication":"让我们构建一个简单的投票站！用户将能够为他们喜欢的候选人投票。你将使用列表（数组，`uint[]`）来存储候选人详细信息。你还将创建一个系统（映射，`mapping(address => uint)`）来记住谁（他们的 `address`）投票给了哪个候选人。把它想象成一个数字投票亭。这教会你如何以结构化的方式管理数据。",
+         "logicalProgression":"介绍复杂数据结构（数组、映射）和逻辑。",
+         "youtubeLink":"https://youtu.be/uBre8NtNKxY",
+         "solutionLink":"https://www.notion.so/builder-hub/PollStation-Contract-1c25720a23ef802c9d9be066debb9bbd"
+      },
+      {
+         "day":4,
+         "week":"第1周：Solidity基础",
+         "contractName":"AuctionHouse.sol",
+         "conceptsTaught":[
+            "if/else语句",
+            "时间 (block.timestamp)",
+            "基本竞标"
+         ],
+         "exampleApplication":"创建一个基本拍卖！用户可以对物品出价，时间到时出价最高者获胜。你将使用'if/else'根据最高出价决定谁获胜，并使用区块链的时钟（`block.timestamp`）跟踪时间。这就像区块链上的eBay简化版，展示了如何根据条件和时间控制逻辑。",
+         "logicalProgression":"添加控制流程和时间管理。",
+         "youtubeLink":"https://youtu.be/OI9x4G6Tu-k",
+         "solutionLink":"https://builder-hub.notion.site/AuctionHouse-Contract-1c35720a23ef80198952efbbe2554608?pvs=4"
+      },
+      {
+         "day":5,
+         "week":"第1周：Solidity基础",
+         "contractName":"AdminOnly.sol",
+         "conceptsTaught":[
+            "修饰符",
+            "msg.sender的所有权",
+            "基本访问控制"
+         ],
+         "exampleApplication":"构建一个模拟由所有者控制的宝藏箱的合约。所有者可以添加宝藏，批准特定用户的提取，甚至自己提取宝藏。其他用户可以尝试提取，但只有在所有者给予他们许可且他们之前没有提取过的情况下。所有者还可以重置提取状态并转移宝藏箱的所有权。这展示了如何使用'修饰符'和 `msg.sender` 创建具有限制访问的合约，类似于只有管理员才能在游戏或应用程序中执行某些操作。",
+         "logicalProgression":"介绍基本访问控制模式。",
+         "youtubeLink":"https://youtu.be/MCz9RrQfpj8",
+         "solutionLink":"https://builder-hub.notion.site/Admin-Only-Contract-1ca5720a23ef804cbd61dc3ca3d380df?pvs=4"
+      },
+      {
+         "day":6,
+         "week":"第1周：Solidity基础",
+         "contractName":"EtherPiggyBank.sol",
+         "conceptsTaught":[
+            "msg.sender",
+            "address",
+            "以太币余额",
+            "存款和提款"
+         ],
+         "exampleApplication":"让我们制作一个数字储钱罐！用户可以存入和提取以太币（加密货币）。你将学习如何管理余额（使用 `address` 识别用户）并跟踪谁发送了以太币（使用 `msg.sender`）。这就像区块链上的简单银行账户，展示了如何处理以太币和用户地址。",
+         "logicalProgression":"应用地址类型、msg.sender和以太币处理。",
+         "youtubeLink":"https://youtu.be/sxWujOuZRuw",
+         "solutionLink":"https://builder-hub.notion.site/The-Ether-Piggy-Bank-1cd5720a23ef802dbd15e2a7b3a7f3d2?pvs=4"
+      },
+      {
+         "day":7,
+         "week":"第1周：Solidity基础",
+         "contractName":"SimpleIOU.sol",
+         "conceptsTaught":[
+            "address",
+            "代币转账",
+            "payable用于gas",
+            "验证 (require)"
+         ],
+         "exampleApplication":"为一群朋友构建一个简单的借条合约。每个用户可以存入ETH，跟踪个人余额，记录谁欠谁钱，并结算债务——全部在链上。你将学习如何使用 `payable` 接受真正的以太币，在地址之间转移资金，并使用嵌套映射来表示像'Alice欠Bob'这样的关系。这个合约反映了现实世界的借贷，并教你如何在Solidity中建模这些交互。",
+         "logicalProgression":"通过引入双向交互扩展个人余额跟踪——债务记录、还款和使用 `transfer` 和 `call` 的实际ETH移动。",
+         "youtubeLink":"https://youtu.be/J0XWaNMFN-c",
+         "solutionLink":"https://builder-hub.notion.site/Simple-IOU-Contract-1ce5720a23ef80acbcb9dda43b5f803f?pvs=4"
+      },
+      {
+         "day":8,
+         "week":"第2周：中级Solidity",
+         "contractName":"TipJar.sol",
+         "conceptsTaught":[
+            "转换",
+            "计价单位",
+            "payable"
+         ],
+         "exampleApplication":"构建一个多币种数字小费罐！用户可以直接发送以太币或模拟以美元或欧元等外币的小费。你将学习如何管理货币转换，使用 `payable` 和 `msg.value` 处理以太币支付，并跟踪个人贡献。把它想象成'请我喝咖啡'按钮的高级版本——但更智能、更全球化，并由Solidity驱动。",
+         "logicalProgression":"通过引入访问控制、跟踪贡献和模拟现实世界货币处理，扩展基本以太币转账——为更复杂的合约逻辑做准备。",
+         "youtubeLink":"https://youtu.be/zidzGRim__I",
+         "solutionLink":"https://builder-hub.notion.site/TipJar-Contract-1cf5720a23ef80e2acf8ebd862a85f27?pvs=4"
+      },
+      {
+         "day":9,
+         "week":"第2周：中级Solidity",
+         "contractName":"SmartCalculator.sol",
+         "conceptsTaught":[
+            "调用其他合约的函数",
+            "地址类型转换",
+            "导入（imports）"
+         ],
+         "exampleApplication":"构建一个使用另一个合约进行计算的合约。你将学习合约如何通过调用其他合约的函数进行交互（使用 `address casting`）。就像一个应用程序请求另一个应用程序进行计算，展示如何与其他合约交互。",
+         "logicalProgression":"介绍合约间通信。",
+         "youtubeLink":"https://youtu.be/AUA6yZBabJ0",
+         "solutionLink":"https://builder-hub.notion.site/Smart-Calculator-1d05720a23ef803a86e3e16d534b51ab?pvs=4",
+         "sideTrack":{
+            "title":"Injective 预编译 – 区块链秘籍",
+            "conceptsTaught":[
+               "预编译是在 Injective 中固定地址的内置合约",
+               "它们以原生方式执行以提高效率",
+               "提供对 Injective 特有功能的访问，例如银行、质押和交易模块",
+               "允许合约与链上原生模块交互，而无需编写复杂逻辑"
             ],
-            "exampleApplication": "让我们构建一个简单的计数器！想象一个数字点击器。你将创建一个名为 `click()` 的'函数'。每次有人调用这个函数，存储在合约中的数字（一个'变量'）就会增加一。你将学习如何声明一个变量来保存数字（一个 `uint`）并创建函数来改变它（增加/减少）。这是制作交互式智能合约的第一步，展示了如何存储和修改数据。",
-            "logicalProgression": "基础语法和基本合约结构。",
-            "youtubeLink": "https://youtu.be/7AoTBeDrFgk",
-            "solutionLink": "https://www.notion.so/builder-hub/ClickCounter-Contract-1c15720a23ef8001ac8fd21470d611c5"
-        },
-        {
-            "day": 2,
-            "week": "第1周：Solidity基础",
-            "contractName": "SaveMyName.sol",
-            "conceptsTaught": [
-                "状态变量 (string, bool)",
-                "存储和检索"
-            ],
-            "exampleApplication": "想象创建一个基本档案。你将制作一个合约，用户可以保存他们的姓名（比如'Alice'）和简短的个人简介（比如'我构建dApps'）。你将学习如何在区块链上存储文本（使用 `string`）。然后，你将创建函数让用户保存和检索这些信息。这展示了如何在区块链上存储和检索数据，这对于构建档案或用户数据存储至关重要。",
-            "logicalProgression": "介绍数据类型和状态管理。",
-            "youtubeLink": "https://youtu.be/jMxpX_OiW4g",
-            "solutionLink": "https://builder-hub.notion.site/SaveMyName-Contract-1c15720a23ef801a8a42eedbae041ea9"
-        },
-        {
-            "day": 3,
-            "week": "第1周：Solidity基础",
-            "contractName": "PollStation.sol",
-            "conceptsTaught": [
-                "数组 (uint[])",
-                "映射 (mapping(address => uint))",
-                "简单投票逻辑"
-            ],
-            "exampleApplication": "让我们构建一个简单的投票站！用户将能够为他们喜欢的候选人投票。你将使用列表（数组，`uint[]`）来存储候选人详细信息。你还将创建一个系统（映射，`mapping(address => uint)`）来记住谁（他们的 `address`）投票给了哪个候选人。把它想象成一个数字投票亭。这教会你如何以结构化的方式管理数据。",
-            "logicalProgression": "介绍复杂数据结构（数组、映射）和逻辑。",
-            "youtubeLink": "https://youtu.be/uBre8NtNKxY",
-            "solutionLink": "https://www.notion.so/builder-hub/PollStation-Contract-1c25720a23ef802c9d9be066debb9bbd"
-        },
-        {
-            "day": 4,
-            "week": "第1周：Solidity基础",
-            "contractName": "AuctionHouse.sol",
-            "conceptsTaught": [
-                "if/else语句",
-                "时间 (block.timestamp)",
-                "基本竞标"
-            ],
-            "exampleApplication": "创建一个基本拍卖！用户可以对物品出价，时间到时出价最高者获胜。你将使用'if/else'根据最高出价决定谁获胜，并使用区块链的时钟（`block.timestamp`）跟踪时间。这就像区块链上的eBay简化版，展示了如何根据条件和时间控制逻辑。",
-            "logicalProgression": "添加控制流程和时间管理。",
-            "youtubeLink": "https://youtu.be/OI9x4G6Tu-k",
-            "solutionLink": "https://builder-hub.notion.site/AuctionHouse-Contract-1c35720a23ef80198952efbbe2554608?pvs=4"
-        },
-        {
-            "day": 5,
-            "week": "第1周：Solidity基础",
-            "contractName": "AdminOnly.sol",
-            "conceptsTaught": [
-                "修饰符",
-                "msg.sender的所有权",
-                "基本访问控制"
-            ],
-            "exampleApplication": "构建一个模拟由所有者控制的宝藏箱的合约。所有者可以添加宝藏，批准特定用户的提取，甚至自己提取宝藏。其他用户可以尝试提取，但只有在所有者给予他们许可且他们之前没有提取过的情况下。所有者还可以重置提取状态并转移宝藏箱的所有权。这展示了如何使用'修饰符'和 `msg.sender` 创建具有限制访问的合约，类似于只有管理员才能在游戏或应用程序中执行某些操作。",
-            "logicalProgression": "介绍基本访问控制模式。",
-            "youtubeLink": "https://youtu.be/MCz9RrQfpj8",
-            "solutionLink": "https://builder-hub.notion.site/Admin-Only-Contract-1ca5720a23ef804cbd61dc3ca3d380df?pvs=4"
-        },
-        {
-            "day": 6,
-            "week": "第1周：Solidity基础",
-            "contractName": "EtherPiggyBank.sol",
-            "conceptsTaught": [
-                "msg.sender",
-                "address",
-                "以太币余额",
-                "存款和提款"
-            ],
-            "exampleApplication": "让我们制作一个数字储钱罐！用户可以存入和提取以太币（加密货币）。你将学习如何管理余额（使用 `address` 识别用户）并跟踪谁发送了以太币（使用 `msg.sender`）。这就像区块链上的简单银行账户，展示了如何处理以太币和用户地址。",
-            "logicalProgression": "应用地址类型、msg.sender和以太币处理。",
-            "youtubeLink": "https://youtu.be/sxWujOuZRuw",
-            "solutionLink": "https://builder-hub.notion.site/The-Ether-Piggy-Bank-1cd5720a23ef802dbd15e2a7b3a7f3d2?pvs=4"
-        },
-        {
-            "day": 7,
-            "week": "第1周：Solidity基础",
-            "contractName": "SimpleIOU.sol",
-            "conceptsTaught": [
-                "address",
-                "代币转账",
-                "payable用于gas",
-                "验证 (require)"
-            ],
-            "exampleApplication": "为一群朋友构建一个简单的借条合约。每个用户可以存入ETH，跟踪个人余额，记录谁欠谁钱，并结算债务——全部在链上。你将学习如何使用 `payable` 接受真正的以太币，在地址之间转移资金，并使用嵌套映射来表示像'Alice欠Bob'这样的关系。这个合约反映了现实世界的借贷，并教你如何在Solidity中建模这些交互。",
-            "logicalProgression": "通过引入双向交互扩展个人余额跟踪——债务记录、还款和使用 `transfer` 和 `call` 的实际ETH移动。",
-            "youtubeLink": "https://youtu.be/J0XWaNMFN-c",
-            "solutionLink": "https://builder-hub.notion.site/Simple-IOU-Contract-1ce5720a23ef80acbcb9dda43b5f803f?pvs=4"
-        },
-        {
-            "day": 8,
-            "week": "第2周：中级Solidity",
-            "contractName": "TipJar.sol",
-            "conceptsTaught": [
-                "转换",
-                "计价单位",
-                "payable"
-            ],
-            "exampleApplication": "构建一个多币种数字小费罐！用户可以直接发送以太币或模拟以美元或欧元等外币的小费。你将学习如何管理货币转换，使用 `payable` 和 `msg.value` 处理以太币支付，并跟踪个人贡献。把它想象成'请我喝咖啡'按钮的高级版本——但更智能、更全球化，并由Solidity驱动。",
-            "logicalProgression": "通过引入访问控制、跟踪贡献和模拟现实世界货币处理，扩展基本以太币转账——为更复杂的合约逻辑做准备。",
-            "youtubeLink": "https://youtu.be/zidzGRim__I",
-            "solutionLink": "https://builder-hub.notion.site/TipJar-Contract-1cf5720a23ef80e2acf8ebd862a85f27?pvs=4"
-        },{
-    "day": 9,
-    "week": "第2周：中级Solidity",
-    "contractName": "SmartCalculator.sol",
-    "conceptsTaught": [
-        "调用其他合约的函数",
-        "地址类型转换",
-        "导入（imports）"
-    ],
-    "exampleApplication": "构建一个使用另一个合约进行计算的合约。你将学习合约如何通过调用其他合约的函数进行交互（使用 `address casting`）。就像一个应用程序请求另一个应用程序进行计算，展示如何与其他合约交互。",
-    "logicalProgression": "介绍合约间通信。",
-    "youtubeLink": "https://youtu.be/AUA6yZBabJ0",
-    "solutionLink": "https://builder-hub.notion.site/Smart-Calculator-1d05720a23ef803a86e3e16d534b51ab?pvs=4",
-    "sideTrack": {
-        "title": "Injective 预编译 – 区块链秘籍",
-        "conceptsTaught": [
-            "预编译是在 Injective 中固定地址的内置合约",
-            "它们以原生方式执行以提高效率",
-            "提供对 Injective 特有功能的访问，例如银行、质押和交易模块",
-            "允许合约与链上原生模块交互，而无需编写复杂逻辑"
-        ],
-        "exampleApplication": "探索 Injective 的银行预编译。"
-    }
-}
-,
-        {
-            "day": 10,
-            "week": "第2周：中级Solidity",
-            "contractName": "ActivityTracker.sol",
-            "conceptsTaught": [
-                "事件",
-                "记录数据",
-                "索引参数",
-                "发出事件"
-            ],
-            "exampleApplication": "创建一个记录用户锻炼并在达成健身目标时发出事件的智能合约——比如一周内锻炼10次或总共500分钟。用户记录每次锻炼（类型、持续时间、卡路里），合约跟踪进度。事件使用*索引*参数，使前端或链下工具可以轻松按用户和里程碑过滤日志——就像带有成就解锁的去中心化健身追踪器的后端。",
-            "logicalProgression": "介绍用于调试和跟踪的事件记录。",
-            "youtubeLink": "https://youtu.be/QgtW7mwRPC0",
-            "solutionLink": "https://builder-hub.notion.site/ActivityTracker-Contract-1d15720a23ef8065a8d4f1ccd61800e0?pvs=4"
-        },
-        {
-            "day": 11,
-            "week": "第2周：中级Solidity",
-            "contractName": "MasterKey.sol",
-            "conceptsTaught": [
-                "Ownable模式",
-                "继承",
-                "健壮的访问控制"
-            ],
-            "exampleApplication": "构建一个只有所有者（主钥匙持有者）可以控制的安全保险库合约。你将把逻辑分成两部分：一个可重用的'Ownable'基础合约和一个继承它的'VaultMaster'合约。只有所有者可以提取资金或转移所有权。这展示了如何使用Solidity的继承模型编写清洁、可重用的访问控制模式——就像在现实世界的生产合约中一样。这就像构建一个安全的数字保险箱，只有主钥匙持有者可以访问或委托控制权。",
-            "logicalProgression": "基于基本所有权构建模块化的、基于继承的访问控制模式。",
-            "youtubeLink": "https://youtu.be/irc--Pts8zw",
-            "solutionLink": "https://builder-hub.notion.site/Masterkey-Contract-1d25720a23ef803db49dfc8693959f3c?pvs=4"
-        },
-        {
-            "day": 12,
-            "week": "第2周：中级Solidity",
-            "contractName": "MyFirstToken.sol",
-            "conceptsTaught": [
-                "ERC20接口",
-                "totalSupply",
-                "balanceOf",
-                "transfer",
-                "代币基础"
-            ],
-            "exampleApplication": "让我们制作你自己的数字货币！你将创建一个可以在用户之间转移的基本代币，实现ERC20标准。这就像创建你自己的游戏内货币，展示了如何创建和管理代币。",
-            "logicalProgression": "介绍标准化代币接口。",
-            "youtubeLink": "https://youtu.be/59b60LEo1Lo",
-            "solutionLink": "https://builder-hub.notion.site/MyFirstToken-Contract-1d35720a23ef80b2b190c3b122c2290f?pvs=4"
-        },
-        {
-            "day": 13,
-            "week": "第2周：中级Solidity",
-            "contractName": "PreorderTokens.sol",
-            "conceptsTaught": [
-                "用以太币出售代币",
-                "汇率计算",
-                "代币经济学"
-            ],
-            "exampleApplication": "构建一个用以太币出售你的代币的合约。你将学习如何设定价格和管理销售，展示代币经济学。这就像你数字货币的预售，展示了如何用以太币出售代币。",
-            "logicalProgression": "将ERC20概念应用到现实世界场景。",
-            "youtubeLink": "https://youtu.be/P8qmIlSLOLA",
-            "solutionLink": "https://builder-hub.notion.site/PreorderTokens-1d45720a23ef80878624e2c98aab1552?pvs=4"
-        },
-        {
-            "day": 14,
-            "week": "第3周：高级Solidity",
-            "contractName": "SafeDepositBox.sol",
-            "conceptsTaught": [
-                "接口",
-                "抽象",
-                "所有权转移",
-                "合约到合约的交互"
-            ],
-            "exampleApplication": "构建一个提供不同类型保险箱的智能银行——基础、高级、时间锁定等。每个箱子都遵循通用接口并支持所有权转移。中央VaultManager合约以统一的方式与所有保险箱交互，让用户存储秘密并转移所有权，就像交出数字储物柜的钥匙。这教授接口设计、模块化，以及合约如何安全地相互通信。",
-            "logicalProgression": "通过引入模块化合约间的标准化交互和通过接口实现可转移访问，扩展所有权和访问控制。",
-            "youtubeLink": "https://youtu.be/cqZ9gBj5S-A",
-            "solutionLink": "https://builder-hub.notion.site/SafeDeposit-contract-1d55720a23ef80c1b2d0ebccd0fd594d?pvs=4"
-        },
-        {
-            "day": 15,
-            "week": "第3周：高级Solidity",
-            "contractName": "GasSaver.sol",
-            "conceptsTaught": [
-                "Gas优化",
-                "高效的数据位置",
-                "Calldata vs memory",
-                "最小化存储写入"
-            ],
-            "exampleApplication": "构建一个简单的投票系统，用户可以对提案进行投票。你的挑战是让它尽可能节省gas。优化你存储选民数据、处理输入参数和设计函数的方式。你将学习 `calldata`、`memory` 和 `storage` 如何影响gas使用，并发现小改变如何带来大节省。这就像设计一个运行更快更便宜但不失准确性的投票机。",
-            "logicalProgression": "通过挑战学习者在现实世界合约场景中最小化gas成本，应用先前的存储知识。",
-            "youtubeLink": "https://youtu.be/AeVctT0E61s",
-            "solutionLink": "https://builder-hub.notion.site/Gas-Efficient-Voting-1d65720a23ef80dca7dcee996bbe510a?pvs=4"
-        },
-        {
-            "day": 16,
-            "week": "第3周：高级Solidity",
-            "contractName": "PluginStore.sol",
-            "conceptsTaught": [
-                "delegatecall",
-                "代码执行上下文",
-                "库"
-            ],
-            "exampleApplication": "为Web3游戏构建模块化档案系统。核心合约存储每个玩家的基本档案（如姓名和头像），但玩家可以激活可选的'插件'来添加额外功能，如成就、库存管理、战斗统计或社交互动。每个插件是一个有自己逻辑的独立合约，主合约使用 `delegatecall` 执行插件函数，同时保持所有数据在核心档案中。这允许开发者添加或升级功能而无需重新部署主合约——就像在游戏中安装新插件。你将学习如何安全使用 `delegatecall`，管理执行上下文，并以模块化方式组织外部逻辑。",
-            "logicalProgression": "介绍高级执行控制。",
-            "youtubeLink": "https://youtu.be/3j-SrLl412o",
-            "solutionLink": "https://builder-hub.notion.site/PluginStore-Contract-1d75720a23ef803693fafcd0f7fdb162?pvs=4"
-        },
-        {
-            "day": 17,
-            "week": "第3周：高级Solidity",
-            "contractName": "UpgradeHub.sol",
-            "conceptsTaught": [
-                "可升级合约",
-                "代理模式",
-                "用于升级的delegate call"
-            ],
-            "exampleApplication": "为类似SaaS的dApp构建可升级的订阅管理器。代理合约存储用户订阅信息（如计划、续费和到期日期），而管理订阅的逻辑——添加计划、升级用户、暂停账户——存在于外部逻辑合约中。当需要添加新功能或修复bug时，你只需部署新的逻辑合约并使用 `delegatecall` 让代理指向它，无需迁移任何数据。这模拟了现实世界应用程序如何推送更新而不要求用户重新安装。你将学习如何使用代理模式和 `delegatecall` 架构升级安全的合约，分离存储和逻辑以实现长期可维护性。",
-            "logicalProgression": "将delegatecall应用于合约升级。",
-            "youtubeLink": "https://youtu.be/4AXyPg4GwHU",
-            "solutionLink": "https://builder-hub.notion.site/UpgradeHub-1d85720a23ef80e59a26c747bdf1d968?pvs=4"
-        },
-        {
-            "day": 18,
-            "week": "第3周：高级Solidity",
-            "contractName": "WeatherOracle.sol",
-            "conceptsTaught": [
-                "与预言机交互",
-                "获取链下数据"
-            ],
-            "exampleApplication": "构建一个使用Chainlink等预言机检索实时天气数据的智能合约。你将创建一个去中心化的农作物保险合约，如果在生长季节降雨量低于某个阈值，农民可以申请保险。由于以太坊区块链本身无法访问现实世界数据，你将使用预言机获取链下天气信息并自动触发赔付。这个项目展示了如何安全地将外部数据集成到合约逻辑中，并突出了智能合约中现实世界连接的力量。",
-            "logicalProgression": "介绍外部数据集成。",
-            "youtubeLink":"https://youtu.be/FnTUo_WWSTg",
-            "solutionLink":"https://builder-hub.notion.site/Oracle-Contract-1d95720a23ef801da5afebc5873bcbf5?pvs=4"
-        },
-        {
-            "day": 19,
-            "week": "第3周：高级Solidity",
-            "contractName": "SignThis.sol",
-            "conceptsTaught": [
-                "ecrecover",
-                "验证签名",
-                "基本身份验证"
-            ],
-            "exampleApplication": "为私人Web3活动构建基于签名的安全入场系统，如会议、工作坊或代币门禁聚会。与其在链上存储参与者白名单，你的后端或活动组织者为每个获批客人签名消息。当参与者到达时，他们向智能合约提交已签名消息来证明他们被邀请。合约使用 `ecrecover` 在链上验证签名，确认他们的身份而无需任何先前的链上注册。这种模式大幅降低gas成本，保持合约轻量化，并反映了许多现实世界活动如何处理链下批准和链上验证——实用的Web3身份验证流程。",
-            "logicalProgression": "介绍密码学身份验证。",
-            "youtubeLink": "https://youtu.be/delfyPTbHY8",
-            "solutionLink": "https://builder-hub.notion.site/SignThis-Contract-1da5720a23ef80d69ae9c1559ba48a82?pvs=4"
-        },
-        {
-            "day": 20,
-            "week": "第3周：高级Solidity",
-            "contractName": "FortKnox.sol",
-            "conceptsTaught": [
-                "重入攻击",
-                "nonReentrant修饰符",
-                "安全最佳实践"
-            ],
-            "exampleApplication": "构建一个安全的数字保险库，用户可以存入和提取代币化黄金（或任何有价值资产），确保它受到重入攻击保护。想象你正在创建Fort Knox的去中心化版本——用户锁定代币化黄金，然后可以提取它。但就像真正的保险库一样，这个合约必须防止攻击者在余额更新前重复触发提取逻辑。你将实现 `nonReentrant` 修饰符来阻止重入尝试，并遵循Solidity安全最佳实践来锁定你的合约。这个项目展示了一个看似简单的提取函数如何成为漏洞——以及如何正确防御它。",
-            "logicalProgression": "介绍关键安全概念。",
-            "youtubeLink": "https://youtu.be/Q9oEHYQGQI4",
-            "solutionLink": "https://builder-hub.notion.site/FortKnox-Contract-1db5720a23ef80a4a303e3f1d63f8f3a?pvs=4"
-        },
-        {
-            "day": 21,
-            "week": "第4周：现实世界应用",
-            "contractName": "SimpleNFT.sol",
-            "conceptsTaught": [
-                "ERC721基础",
-                "铸造NFT",
-                "元数据存储"
-            ],
-            "exampleApplication": "创建你自己的数字收藏品（NFT）！你将学习如何通过实现ERC721标准和存储元数据制作独特的数字物品。这就像创建数字交易卡，展示了NFT的创建。",
-            "logicalProgression": "介绍NFT标准。",
-            "youtubeLink": "https://www.youtube.com/watch?v=DdvrGf5Rg4Q&t=2742s",
-            "solutionLink": "https://builder-hub.notion.site/SimpleNFT-1dc5720a23ef807da46fd1f75523bbb9?pvs=4"
-        },
-        {
-            "day": 22,
-            "week": "第4周：现实世界应用",
-            "contractName": "DecentralizedLottery.sol",
-            "conceptsTaught": [
-                "Chainlink VRF",
-                "随机数生成",
-                "彩票逻辑"
-            ],
-            "exampleApplication": "构建一个公平且随机的彩票！你将学习如何使用Chainlink VRF等外部服务生成随机数。这就像区块链上的彩票，展示了如何使用外部随机性。",
-            "logicalProgression": "将外部数据和随机性应用于实际应用。",
-            "solutionLink":"https://builder-hub.notion.site/DecentralisedLottery-contract-1dd5720a23ef8030ab23ee0d8b2c2c2d?pvs=4",
-            "youtubeLink":"https://youtu.be/IciiaXNIscg"
-        },
-        {
-            "day": 23,
-            "week": "第4周：现实世界应用",
-            "contractName": "LendingPool.sol",
-            "conceptsTaught": [
-                "借贷",
-                "利息计算",
-                "抵押品"
-            ],
-            "exampleApplication": "构建一个借贷数字资产的系统。你将学习如何计算利息和管理抵押品，展示核心DeFi概念。这就像加密货币的数字银行，展示了如何创建借贷平台。",
-            "logicalProgression": "介绍核心DeFi概念。",
-            "solutionLink":"https://builder-hub.notion.site/LendingPool-Contract-1de5720a23ef80b69930c481a98072df?pvs=4",
-            "youtubeLink":"https://youtu.be/lnAFa73apAE"
-        },
-        {
-            "day": 24,
-            "week": "第4周：现实世界应用",
-            "contractName": "DecentralizedEscrow.sol",
-            "conceptsTaught": [
-                "托管服务",
-                "条件支付",
-                "争议解决"
-            ],
-            "exampleApplication": "构建一个安全的系统来持有资金直到满足条件。你将学习如何管理支付和处理争议。这就像安全交易的数字中间人，展示了安全的条件支付。",
-            "logicalProgression": "专注于安全的条件交易。",
-            "youtubeLink":"https://youtu.be/Ar6AR6I-j-s",
-            "solutionLink":"https://builder-hub.notion.site/DecentraliseEscrow-Contract-1de5720a23ef8007a888eca6b48df76f?pvs=4"
-        },
-        {
-            "day": 25,
-            "week": "第4周：现实世界应用",
-            "contractName": "AutomatedMarketMaker.sol",
-            "conceptsTaught": [
-                "AMM逻辑",
-                "恒定乘积公式",
-                "流动性池"
-            ],
-            "exampleApplication": "构建一个自动交易代币的系统。你将学习如何创建流动性池并实现恒定乘积公式，展示AMM逻辑。这就像代币的数字交易所，展示了如何创建自动化市场。",
-            "logicalProgression": "引入高级DeFi与AMM。",
-            "youtubeLink": "https://youtu.be/xcaz8XQmtE8",
-            "solutionLink": "https://builder-hub.notion.site/Automated-Market-Maker-1df5720a23ef807cac40e0ddc4e22224?pvs=4"
-        },
-        {
-            "day": 26,
-            "week": "第4周：现实世界应用",
-            "contractName": "NFTMarketplace.sol",
-            "conceptsTaught": [
-                "NFT市场",
-                "上架/购买/出售",
-                "版税"
-            ],
-            "exampleApplication": "构建一个买卖NFT的市场。你将学习如何管理上架和版税，展示NFT交易。这就像收藏品的数字商店，展示了如何创建NFT市场。",
-            "logicalProgression": "将NFT标准应用于市场。",
-            "youtubeLink":"https://youtu.be/kNIzxWTi89g",
-            "solutionLink":"https://builder-hub.notion.site/NFT-Marketplace-1df5720a23ef8040b753eacf7bd9beb4?pvs=4"
-        },
-        {
-            "day": 27,
-            "week": "第4周：现实世界应用",
-            "contractName": "YieldFarming.sol",
-            "conceptsTaught": [
-                "收益农场",
-                "质押",
-                "奖励分配"
-            ],
-            "exampleApplication": "构建一个通过质押代币赚取奖励的系统。你将学习如何分配奖励，展示收益农场。这就像有利息的数字储蓄账户，展示了如何创建收益农场平台。",
-            "logicalProgression": "基于AMM构建收益农场。",
-            "youtubeLink":"https://youtu.be/Noly0ZUzfeE",
-            "solutionLink":"https://builder-hub.notion.site/YieldFarming-Contract-1e25720a23ef8046ba76fcacffc66864?pvs=4"
-        },
-        {
-            "day": 28,
-            "week": "第4周：现实世界应用",
-            "contractName": "DecentralizedGovernance.sol",
-            "conceptsTaught": [
-                "DAO结构",
-                "投票",
-                "基于代币的治理"
-            ],
-            "exampleApplication": "构建一个对提案进行投票的系统。你将学习如何创建一个成员可以投票的数字组织，展示去中心化治理。这就像数字民主，展示了如何创建DAO。",
-            "logicalProgression": "介绍去中心化治理。",
-            "youtubeLink":"https://youtu.be/SoWNluca-Bk",
-            "solutionLink":"https://builder-hub.notion.site/DecentralisedGovernance-Contract-1e25720a23ef8014a8caf30dca28fb9b?pvs=4"
-        },
-        {
-            "day": 29,
-            "week": "第4周：现实世界应用",
-            "contractName": "Stablecoin.sol",
-            "conceptsTaught": [
-                "稳定币实现",
-                "锚定机制",
-                "价格稳定"
-            ],
-            "exampleApplication": "构建一个维持稳定价值的数字货币。你将学习如何使用锚定机制保持价格稳定，展示稳定币机制。这就像数字美元，展示了如何创建稳定币。",
-            "logicalProgression": "用稳定币机制扩展DeFi。",
-            "youtubeLink":"https://youtu.be/oyitivoEyEg",
-            "solutionLink":"https://builder-hub.notion.site/StableCoin-Contract-1e35720a23ef809f9875e8e244964c5b?pvs=4"
-        },
-        {
-            "day": 30,
-            "week": "第4周：现实世界应用",
-            "contractName": "MiniDex.sol",
-            "conceptsTaught": [
-                "最小去中心化交易所",
-                "代币交换",
-                "流动性池"
-            ],
-            "exampleApplication": "构建一个交易代币的简单交易所。你将学习如何使用代币交换和流动性池创建数字市场。这就像股票交易所的迷你版，展示了如何创建去中心化交易所。",
-            "logicalProgression": "将许多DeFi概念结合到实际应用中。",
-            "youtubeLink": "https://youtu.be/mcMp_X1pH4M",
-            "solutionLink": "https://builder-hub.notion.site/Day-30-The-Final-Build-Your-Own-Mini-DEX-1e45720a23ef80debfd5e4507d43b4ed?pvs=4"
-        }
-    ]
+            "exampleApplication":"探索 Injective 的银行预编译。"
+         }
+      },
+      {
+         "day":10,
+         "week":"第2周：中级Solidity",
+         "contractName":"ActivityTracker.sol",
+         "conceptsTaught":[
+            "事件",
+            "记录数据",
+            "索引参数",
+            "发出事件"
+         ],
+         "exampleApplication":"创建一个记录用户锻炼并在达成健身目标时发出事件的智能合约——比如一周内锻炼10次或总共500分钟。用户记录每次锻炼（类型、持续时间、卡路里），合约跟踪进度。事件使用*索引*参数，使前端或链下工具可以轻松按用户和里程碑过滤日志——就像带有成就解锁的去中心化健身追踪器的后端。",
+         "logicalProgression":"介绍用于调试和跟踪的事件记录。",
+         "youtubeLink":"https://youtu.be/QgtW7mwRPC0",
+         "solutionLink":"https://builder-hub.notion.site/ActivityTracker-Contract-1d15720a23ef8065a8d4f1ccd61800e0?pvs=4"
+      },
+      {
+         "day":11,
+         "week":"第2周：中级Solidity",
+         "contractName":"MasterKey.sol",
+         "conceptsTaught":[
+            "Ownable模式",
+            "继承",
+            "健壮的访问控制"
+         ],
+         "exampleApplication":"构建一个只有所有者（主钥匙持有者）可以控制的安全保险库合约。你将把逻辑分成两部分：一个可重用的'Ownable'基础合约和一个继承它的'VaultMaster'合约。只有所有者可以提取资金或转移所有权。这展示了如何使用Solidity的继承模型编写清洁、可重用的访问控制模式——就像在现实世界的生产合约中一样。这就像构建一个安全的数字保险箱，只有主钥匙持有者可以访问或委托控制权。",
+         "logicalProgression":"基于基本所有权构建模块化的、基于继承的访问控制模式。",
+         "youtubeLink":"https://youtu.be/irc--Pts8zw",
+         "solutionLink":"https://builder-hub.notion.site/Masterkey-Contract-1d25720a23ef803db49dfc8693959f3c?pvs=4"
+      },
+      {
+         "day":12,
+         "week":"第2周：中级Solidity",
+         "contractName":"MyFirstToken.sol",
+         "conceptsTaught":[
+            "ERC20接口",
+            "totalSupply",
+            "balanceOf",
+            "transfer",
+            "代币基础"
+         ],
+         "exampleApplication":"让我们制作你自己的数字货币！你将创建一个可以在用户之间转移的基本代币，实现ERC20标准。这就像创建你自己的游戏内货币，展示了如何创建和管理代币。",
+         "logicalProgression":"介绍标准化代币接口。",
+         "youtubeLink":"https://youtu.be/59b60LEo1Lo",
+         "solutionLink":"https://builder-hub.notion.site/MyFirstToken-Contract-1d35720a23ef80b2b190c3b122c2290f?pvs=4"
+      },
+      {
+         "day":13,
+         "week":"第2周：中级Solidity",
+         "contractName":"PreorderTokens.sol",
+         "conceptsTaught":[
+            "用以太币出售代币",
+            "汇率计算",
+            "代币经济学"
+         ],
+         "exampleApplication":"构建一个用以太币出售你的代币的合约。你将学习如何设定价格和管理销售，展示代币经济学。这就像你数字货币的预售，展示了如何用以太币出售代币。",
+         "logicalProgression":"将ERC20概念应用到现实世界场景。",
+         "youtubeLink":"https://youtu.be/P8qmIlSLOLA",
+         "solutionLink":"https://builder-hub.notion.site/PreorderTokens-1d45720a23ef80878624e2c98aab1552?pvs=4"
+      },
+      {
+         "day":14,
+         "week":"第3周：高级Solidity",
+         "contractName":"SafeDepositBox.sol",
+         "conceptsTaught":[
+            "接口",
+            "抽象",
+            "所有权转移",
+            "合约到合约的交互"
+         ],
+         "exampleApplication":"构建一个提供不同类型保险箱的智能银行——基础、高级、时间锁定等。每个箱子都遵循通用接口并支持所有权转移。中央VaultManager合约以统一的方式与所有保险箱交互，让用户存储秘密并转移所有权，就像交出数字储物柜的钥匙。这教授接口设计、模块化，以及合约如何安全地相互通信。",
+         "logicalProgression":"通过引入模块化合约间的标准化交互和通过接口实现可转移访问，扩展所有权和访问控制。",
+         "youtubeLink":"https://youtu.be/cqZ9gBj5S-A",
+         "solutionLink":"https://builder-hub.notion.site/SafeDeposit-contract-1d55720a23ef80c1b2d0ebccd0fd594d?pvs=4"
+      },
+      {
+         "day":15,
+         "week":"第3周：高级Solidity",
+         "contractName":"GasSaver.sol",
+         "conceptsTaught":[
+            "Gas优化",
+            "高效的数据位置",
+            "Calldata vs memory",
+            "最小化存储写入"
+         ],
+         "exampleApplication":"构建一个简单的投票系统，用户可以对提案进行投票。你的挑战是让它尽可能节省gas。优化你存储选民数据、处理输入参数和设计函数的方式。你将学习 `calldata`、`memory` 和 `storage` 如何影响gas使用，并发现小改变如何带来大节省。这就像设计一个运行更快更便宜但不失准确性的投票机。",
+         "logicalProgression":"通过挑战学习者在现实世界合约场景中最小化gas成本，应用先前的存储知识。",
+         "youtubeLink":"https://youtu.be/AeVctT0E61s",
+         "solutionLink":"https://builder-hub.notion.site/Gas-Efficient-Voting-1d65720a23ef80dca7dcee996bbe510a?pvs=4"
+      },
+      {
+         "day":16,
+         "week":"第3周：高级Solidity",
+         "contractName":"PluginStore.sol",
+         "conceptsTaught":[
+            "delegatecall",
+            "代码执行上下文",
+            "库"
+         ],
+         "exampleApplication":"为Web3游戏构建模块化档案系统。核心合约存储每个玩家的基本档案（如姓名和头像），但玩家可以激活可选的'插件'来添加额外功能，如成就、库存管理、战斗统计或社交互动。每个插件是一个有自己逻辑的独立合约，主合约使用 `delegatecall` 执行插件函数，同时保持所有数据在核心档案中。这允许开发者添加或升级功能而无需重新部署主合约——就像在游戏中安装新插件。你将学习如何安全使用 `delegatecall`，管理执行上下文，并以模块化方式组织外部逻辑。",
+         "logicalProgression":"介绍高级执行控制。",
+         "youtubeLink":"https://youtu.be/3j-SrLl412o",
+         "solutionLink":"https://builder-hub.notion.site/PluginStore-Contract-1d75720a23ef803693fafcd0f7fdb162?pvs=4"
+      },
+      {
+         "day":17,
+         "week":"第3周：高级Solidity",
+         "contractName":"UpgradeHub.sol",
+         "conceptsTaught":[
+            "可升级合约",
+            "代理模式",
+            "用于升级的delegate call"
+         ],
+         "exampleApplication":"为类似SaaS的dApp构建可升级的订阅管理器。代理合约存储用户订阅信息（如计划、续费和到期日期），而管理订阅的逻辑——添加计划、升级用户、暂停账户——存在于外部逻辑合约中。当需要添加新功能或修复bug时，你只需部署新的逻辑合约并使用 `delegatecall` 让代理指向它，无需迁移任何数据。这模拟了现实世界应用程序如何推送更新而不要求用户重新安装。你将学习如何使用代理模式和 `delegatecall` 架构升级安全的合约，分离存储和逻辑以实现长期可维护性。",
+         "logicalProgression":"将delegatecall应用于合约升级。",
+         "youtubeLink":"https://youtu.be/4AXyPg4GwHU",
+         "solutionLink":"https://builder-hub.notion.site/UpgradeHub-1d85720a23ef80e59a26c747bdf1d968?pvs=4"
+      },
+      {
+         "day":18,
+         "week":"第3周：高级Solidity",
+         "contractName":"WeatherOracle.sol",
+         "conceptsTaught":[
+            "与预言机交互",
+            "获取链下数据"
+         ],
+         "exampleApplication":"构建一个使用Chainlink等预言机检索实时天气数据的智能合约。你将创建一个去中心化的农作物保险合约，如果在生长季节降雨量低于某个阈值，农民可以申请保险。由于以太坊区块链本身无法访问现实世界数据，你将使用预言机获取链下天气信息并自动触发赔付。这个项目展示了如何安全地将外部数据集成到合约逻辑中，并突出了智能合约中现实世界连接的力量。",
+         "logicalProgression":"介绍外部数据集成。",
+         "youtubeLink":"https://youtu.be/FnTUo_WWSTg",
+         "solutionLink":"https://builder-hub.notion.site/Oracle-Contract-1d95720a23ef801da5afebc5873bcbf5?pvs=4"
+      },
+      {
+         "day":19,
+         "week":"第3周：高级Solidity",
+         "contractName":"SignThis.sol",
+         "conceptsTaught":[
+            "ecrecover",
+            "验证签名",
+            "基本身份验证"
+         ],
+         "exampleApplication":"为私人Web3活动构建基于签名的安全入场系统，如会议、工作坊或代币门禁聚会。与其在链上存储参与者白名单，你的后端或活动组织者为每个获批客人签名消息。当参与者到达时，他们向智能合约提交已签名消息来证明他们被邀请。合约使用 `ecrecover` 在链上验证签名，确认他们的身份而无需任何先前的链上注册。这种模式大幅降低gas成本，保持合约轻量化，并反映了许多现实世界活动如何处理链下批准和链上验证——实用的Web3身份验证流程。",
+         "logicalProgression":"介绍密码学身份验证。",
+         "youtubeLink":"https://youtu.be/delfyPTbHY8",
+         "solutionLink":"https://builder-hub.notion.site/SignThis-Contract-1da5720a23ef80d69ae9c1559ba48a82?pvs=4"
+      },
+      {
+         "day":20,
+         "week":"第3周：高级Solidity",
+         "contractName":"FortKnox.sol",
+         "conceptsTaught":[
+            "重入攻击",
+            "nonReentrant修饰符",
+            "安全最佳实践"
+         ],
+         "exampleApplication":"构建一个安全的数字保险库，用户可以存入和提取代币化黄金（或任何有价值资产），确保它受到重入攻击保护。想象你正在创建Fort Knox的去中心化版本——用户锁定代币化黄金，然后可以提取它。但就像真正的保险库一样，这个合约必须防止攻击者在余额更新前重复触发提取逻辑。你将实现 `nonReentrant` 修饰符来阻止重入尝试，并遵循Solidity安全最佳实践来锁定你的合约。这个项目展示了一个看似简单的提取函数如何成为漏洞——以及如何正确防御它。",
+         "logicalProgression":"介绍关键安全概念。",
+         "youtubeLink":"https://youtu.be/Q9oEHYQGQI4",
+         "solutionLink":"https://builder-hub.notion.site/FortKnox-Contract-1db5720a23ef80a4a303e3f1d63f8f3a?pvs=4"
+      },
+      {
+         "day":21,
+         "week":"第4周：现实世界应用",
+         "contractName":"SimpleNFT.sol",
+         "conceptsTaught":[
+            "ERC721基础",
+            "铸造NFT",
+            "元数据存储"
+         ],
+         "exampleApplication":"创建你自己的数字收藏品（NFT）！你将学习如何通过实现ERC721标准和存储元数据制作独特的数字物品。这就像创建数字交易卡，展示了NFT的创建。",
+         "logicalProgression":"介绍NFT标准。",
+         "youtubeLink":"https://www.youtube.com/watch?v=DdvrGf5Rg4Q&t=2742s",
+         "solutionLink":"https://builder-hub.notion.site/SimpleNFT-1dc5720a23ef807da46fd1f75523bbb9?pvs=4"
+      },
+      {
+         "day":22,
+         "week":"第4周：现实世界应用",
+         "contractName":"DecentralizedLottery.sol",
+         "conceptsTaught":[
+            "Chainlink VRF",
+            "随机数生成",
+            "彩票逻辑"
+         ],
+         "exampleApplication":"构建一个公平且随机的彩票！你将学习如何使用Chainlink VRF等外部服务生成随机数。这就像区块链上的彩票，展示了如何使用外部随机性。",
+         "logicalProgression":"将外部数据和随机性应用于实际应用。",
+         "solutionLink":"https://builder-hub.notion.site/DecentralisedLottery-contract-1dd5720a23ef8030ab23ee0d8b2c2c2d?pvs=4",
+         "youtubeLink":"https://youtu.be/IciiaXNIscg"
+      },
+      {
+         "day":23,
+         "week":"第4周：现实世界应用",
+         "contractName":"LendingPool.sol",
+         "conceptsTaught":[
+            "借贷",
+            "利息计算",
+            "抵押品"
+         ],
+         "exampleApplication":"构建一个借贷数字资产的系统。你将学习如何计算利息和管理抵押品，展示核心DeFi概念。这就像加密货币的数字银行，展示了如何创建借贷平台。",
+         "logicalProgression":"介绍核心DeFi概念。",
+         "solutionLink":"https://builder-hub.notion.site/LendingPool-Contract-1de5720a23ef80b69930c481a98072df?pvs=4",
+         "youtubeLink":"https://youtu.be/lnAFa73apAE"
+      },
+      {
+         "day":24,
+         "week":"第4周：现实世界应用",
+         "contractName":"DecentralizedEscrow.sol",
+         "conceptsTaught":[
+            "托管服务",
+            "条件支付",
+            "争议解决"
+         ],
+         "exampleApplication":"构建一个安全的系统来持有资金直到满足条件。你将学习如何管理支付和处理争议。这就像安全交易的数字中间人，展示了安全的条件支付。",
+         "logicalProgression":"专注于安全的条件交易。",
+         "youtubeLink":"https://youtu.be/Ar6AR6I-j-s",
+         "solutionLink":"https://builder-hub.notion.site/DecentraliseEscrow-Contract-1de5720a23ef8007a888eca6b48df76f?pvs=4"
+      },
+      {
+         "day":25,
+         "week":"第4周：现实世界应用",
+         "contractName":"AutomatedMarketMaker.sol",
+         "conceptsTaught":[
+            "AMM逻辑",
+            "恒定乘积公式",
+            "流动性池"
+         ],
+         "exampleApplication":"构建一个自动交易代币的系统。你将学习如何创建流动性池并实现恒定乘积公式，展示AMM逻辑。这就像代币的数字交易所，展示了如何创建自动化市场。",
+         "logicalProgression":"引入高级DeFi与AMM。",
+         "youtubeLink":"https://youtu.be/xcaz8XQmtE8",
+         "solutionLink":"https://builder-hub.notion.site/Automated-Market-Maker-1df5720a23ef807cac40e0ddc4e22224?pvs=4"
+      },
+      {
+         "day":26,
+         "week":"第4周：现实世界应用",
+         "contractName":"NFTMarketplace.sol",
+         "conceptsTaught":[
+            "NFT市场",
+            "上架/购买/出售",
+            "版税"
+         ],
+         "exampleApplication":"构建一个买卖NFT的市场。你将学习如何管理上架和版税，展示NFT交易。这就像收藏品的数字商店，展示了如何创建NFT市场。",
+         "logicalProgression":"将NFT标准应用于市场。",
+         "youtubeLink":"https://youtu.be/kNIzxWTi89g",
+         "solutionLink":"https://builder-hub.notion.site/NFT-Marketplace-1df5720a23ef8040b753eacf7bd9beb4?pvs=4"
+      },
+      {
+         "day":27,
+         "week":"第4周：现实世界应用",
+         "contractName":"YieldFarming.sol",
+         "conceptsTaught":[
+            "收益农场",
+            "质押",
+            "奖励分配"
+         ],
+         "exampleApplication":"构建一个通过质押代币赚取奖励的系统。你将学习如何分配奖励，展示收益农场。这就像有利息的数字储蓄账户，展示了如何创建收益农场平台。",
+         "logicalProgression":"基于AMM构建收益农场。",
+         "youtubeLink":"https://youtu.be/Noly0ZUzfeE",
+         "solutionLink":"https://builder-hub.notion.site/YieldFarming-Contract-1e25720a23ef8046ba76fcacffc66864?pvs=4"
+      },
+      {
+         "day":28,
+         "week":"第4周：现实世界应用",
+         "contractName":"DecentralizedGovernance.sol",
+         "conceptsTaught":[
+            "DAO结构",
+            "投票",
+            "基于代币的治理"
+         ],
+         "exampleApplication":"构建一个对提案进行投票的系统。你将学习如何创建一个成员可以投票的数字组织，展示去中心化治理。这就像数字民主，展示了如何创建DAO。",
+         "logicalProgression":"介绍去中心化治理。",
+         "youtubeLink":"https://youtu.be/SoWNluca-Bk",
+         "solutionLink":"https://builder-hub.notion.site/DecentralisedGovernance-Contract-1e25720a23ef8014a8caf30dca28fb9b?pvs=4"
+      },
+      {
+         "day":29,
+         "week":"第4周：现实世界应用",
+         "contractName":"Stablecoin.sol",
+         "conceptsTaught":[
+            "稳定币实现",
+            "锚定机制",
+            "价格稳定"
+         ],
+         "exampleApplication":"构建一个维持稳定价值的数字货币。你将学习如何使用锚定机制保持价格稳定，展示稳定币机制。这就像数字美元，展示了如何创建稳定币。",
+         "logicalProgression":"用稳定币机制扩展DeFi。",
+         "youtubeLink":"https://youtu.be/oyitivoEyEg",
+         "solutionLink":"https://builder-hub.notion.site/StableCoin-Contract-1e35720a23ef809f9875e8e244964c5b?pvs=4"
+      },
+      {
+         "day":30,
+         "week":"第4周：现实世界应用",
+         "contractName":"MiniDex.sol",
+         "conceptsTaught":[
+            "最小去中心化交易所",
+            "代币交换",
+            "流动性池"
+         ],
+         "exampleApplication":"构建一个交易代币的简单交易所。你将学习如何使用代币交换和流动性池创建数字市场。这就像股票交易所的迷你版，展示了如何创建去中心化交易所。",
+         "logicalProgression":"将许多DeFi概念结合到实际应用中。",
+         "youtubeLink":"https://youtu.be/mcMp_X1pH4M",
+         "solutionLink":"https://builder-hub.notion.site/Day-30-The-Final-Build-Your-Own-Mini-DEX-1e45720a23ef80debfd5e4507d43b4ed?pvs=4"
+      }
+   ]
 }
