@@ -113,20 +113,30 @@
             "youtubeLink": "https://youtu.be/zidzGRim__I",
             "solutionLink": "https://builder-hub.notion.site/TipJar-Contract-1cf5720a23ef80e2acf8ebd862a85f27?pvs=4"
         },
-        {
-            "day": 9,
-            "week": "Semana 2: Solidity Intermedio",
-            "contractName": "SmartCalculator.sol",
-            "conceptsTaught": [
-                "Llamar funciones de otro contrato",
-                "conversión de address",
-                "importaciones"
-            ],
-            "exampleApplication": "Construye un contrato que usa otro contrato para hacer cálculos. Aprenderás cómo los contratos pueden hablar entre sí llamando funciones de otros contratos (usando `conversión de address`). Es como tener una app pidiendo a otra app que haga algunas matemáticas, mostrando cómo interactuar con otros contratos.",
-            "logicalProgression": "Introduce comunicación entre contratos.",
-            "youtubeLink": "https://youtu.be/AUA6yZBabJ0",
-            "solutionLink": "https://builder-hub.notion.site/Smart-Calculator-1d05720a23ef803a86e3e16d534b51ab?pvs=4"
-        },
+{
+    "day": 9,
+    "week": "Semana 2: Solidity Intermedio",
+    "contractName": "SmartCalculator.sol",
+    "conceptsTaught": [
+        "Llamar funciones de otro contrato",
+        "Casting de direcciones",
+        "Imports"
+    ],
+    "exampleApplication": "Construye un contrato que utilice otro contrato para realizar cálculos. Aprenderás cómo los contratos pueden comunicarse entre sí llamando funciones de otros contratos (usando `address casting`). Es como si una app le pidiera a otra hacer algunos cálculos, mostrando cómo interactuar con otros contratos.",
+    "logicalProgression": "Introduce la comunicación entre contratos.",
+    "youtubeLink": "https://youtu.be/AUA6yZBabJ0",
+    "solutionLink": "https://builder-hub.notion.site/Smart-Calculator-1d05720a23ef803a86e3e16d534b51ab?pvs=4",
+    "sideTrack": {
+        "title": "Precompilados de Injective – Códigos secretos de la blockchain",
+        "conceptsTaught": [
+            "Los precompilados son contratos incorporados en direcciones fijas en Injective",
+            "Se ejecutan de manera nativa para alta eficiencia",
+            "Proporcionan acceso a características específicas de Injective como el módulo bancario, staking y de intercambio",
+            "Permiten a los contratos interactuar con módulos nativos de la cadena sin escribir lógica compleja"
+        ],
+        "exampleApplication": "Explorando el precompilado del Banco en Injective."
+    }
+},
         {
             "day": 10,
             "week": "Semana 2: Solidity Intermedio",
