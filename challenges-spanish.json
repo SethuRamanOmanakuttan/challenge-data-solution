@@ -352,20 +352,31 @@
             "youtubeLink":"https://youtu.be/Ar6AR6I-j-s",
             "solutionLink":"https://builder-hub.notion.site/DecentraliseEscrow-Contract-1de5720a23ef8007a888eca6b48df76f?pvs=4"
         },
-        {
-            "day": 25,
-            "week": "Semana 4: Aplicaciones del Mundo Real",
-            "contractName": "AutomatedMarketMaker.sol",
-            "conceptsTaught": [
-                "Lógica AMM",
-                "fórmula de producto constante",
-                "pools de liquidez"
-            ],
-            "exampleApplication": "Construye un sistema para intercambiar tokens automáticamente. Aprenderás cómo crear pools de liquidez e implementar la fórmula de producto constante, demostrando lógica AMM. Es como un intercambio digital para tokens, mostrando cómo crear mercados automatizados.",
-            "logicalProgression": "Introduce DeFi avanzado con AMMs.",
-            "youtubeLink": "https://youtu.be/xcaz8XQmtE8",
-            "solutionLink": "https://builder-hub.notion.site/Automated-Market-Maker-1df5720a23ef807cac40e0ddc4e22224?pvs=4"
-        },
+{
+    "day": 25,
+    "week": "Semana 4: Aplicaciones del Mundo Real",
+    "contractName": "AutomatedMarketMaker.sol",
+    "conceptsTaught": [
+        "Lógica de AMM",
+        "Fórmula de producto constante",
+        "Pools de liquidez"
+    ],
+    "exampleApplication": "Construye un sistema para intercambiar tokens automáticamente. Aprenderás a crear pools de liquidez e implementar la fórmula de producto constante, demostrando la lógica de AMM. Es como un intercambio digital de tokens, mostrando cómo crear mercados automatizados.",
+    "logicalProgression": "Introduce DeFi avanzado con AMMs.",
+    "youtubeLink": "https://youtu.be/xcaz8XQmtE8",
+    "solutionLink": "https://builder-hub.notion.site/Automated-Market-Maker-1df5720a23ef807cac40e0ddc4e22224?pvs=4",
+    "sideTrack": {
+        "title": "Injective CLOB – Poder del Orderbook",
+        "conceptsTaught": [
+            "CLOB (Central Limit Order Book) es un sistema de libro de órdenes on-chain en Injective",
+            "Los precompiles exponen la funcionalidad de CLOB a los contratos inteligentes",
+            "Permite colocar órdenes, cancelarlas y consultarlas directamente desde los contratos",
+            "Proporciona una alternativa a los AMMs para operar con spreads más ajustados y mayor control de órdenes"
+        ],
+        "exampleApplication": "Usando el CLOB de Injective como alternativa a un AMM"
+    }
+}
+
         {
             "day": 26,
             "week": "Semana 4: Aplicaciones del Mundo Real",
