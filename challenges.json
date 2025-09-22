@@ -352,20 +352,30 @@
             "youtubeLink":"https://youtu.be/Ar6AR6I-j-s",
             "solutionLink":"https://builder-hub.notion.site/DecentraliseEscrow-Contract-1de5720a23ef8007a888eca6b48df76f?pvs=4"
         },
-        {
-            "day": 25,
-            "week": "Week 4: Real-World Applications",
-            "contractName": "AutomatedMarketMaker.sol",
-            "conceptsTaught": [
-                "AMM logic",
-                "constant product formula",
-                "liquidity pools"
-            ],
-            "exampleApplication": "Build a system for trading tokens automatically. You'll learn how to create liquidity pools and implement the constant product formula, demonstrating AMM logic. It's like a digital exchange for tokens, showing how to create automated markets.",
-            "logicalProgression": "Introduces advanced DeFi with AMMs.",
-            "youtubeLink": "https://youtu.be/xcaz8XQmtE8",
-            "solutionLink": "https://builder-hub.notion.site/Automated-Market-Maker-1df5720a23ef807cac40e0ddc4e22224?pvs=4"
-        },
+     {
+    "day": 25,
+    "week": "Week 4: Real-World Applications",
+    "contractName": "AutomatedMarketMaker.sol",
+    "conceptsTaught": [
+        "AMM logic",
+        "constant product formula",
+        "liquidity pools"
+    ],
+    "exampleApplication": "Build a system for trading tokens automatically. You'll learn how to create liquidity pools and implement the constant product formula, demonstrating AMM logic. It's like a digital exchange for tokens, showing how to create automated markets.",
+    "logicalProgression": "Introduces advanced DeFi with AMMs.",
+    "youtubeLink": "https://youtu.be/xcaz8XQmtE8",
+    "solutionLink": "https://builder-hub.notion.site/Automated-Market-Maker-1df5720a23ef807cac40e0ddc4e22224?pvs=4",
+    "sideTrack": {
+        "title": "Injective CLOB – Orderbook Power",
+        "conceptsTaught": [
+            "CLOB (Central Limit Order Book) is an on-chain orderbook system on Injective",
+            "Precompiles expose CLOB functionality to smart contracts",
+            "Enables order placement, cancellation, and querying directly from contracts",
+            "Provides an alternative to AMMs for trading with tighter spreads and order control"
+        ],
+        "exampleApplication": "Using the Injective CLOB as an alternative to AMM"
+    }
+},
         {
             "day": 26,
             "week": "Week 4: Real-World Applications",
