@@ -112,21 +112,31 @@
             "logicalProgression": "通过引入访问控制、跟踪贡献和模拟现实世界货币处理，扩展基本以太币转账——为更复杂的合约逻辑做准备。",
             "youtubeLink": "https://youtu.be/zidzGRim__I",
             "solutionLink": "https://builder-hub.notion.site/TipJar-Contract-1cf5720a23ef80e2acf8ebd862a85f27?pvs=4"
-        },
-        {
-            "day": 9,
-            "week": "第2周：中级Solidity",
-            "contractName": "SmartCalculator.sol",
-            "conceptsTaught": [
-                "调用另一个合约的函数",
-                "地址转换",
-                "导入"
-            ],
-            "exampleApplication": "构建一个使用另一个合约进行计算的合约。你将学习合约如何通过调用其他合约的函数相互交流（使用 `地址转换`）。这就像一个应用程序要求另一个应用程序做一些数学运算，展示了如何与其他合约交互。",
-            "logicalProgression": "介绍合约间通信。",
-            "youtubeLink": "https://youtu.be/AUA6yZBabJ0",
-            "solutionLink": "https://builder-hub.notion.site/Smart-Calculator-1d05720a23ef803a86e3e16d534b51ab?pvs=4"
-        },
+        },{
+    "day": 9,
+    "week": "第2周：中级Solidity",
+    "contractName": "SmartCalculator.sol",
+    "conceptsTaught": [
+        "调用其他合约的函数",
+        "地址类型转换",
+        "导入（imports）"
+    ],
+    "exampleApplication": "构建一个使用另一个合约进行计算的合约。你将学习合约如何通过调用其他合约的函数进行交互（使用 `address casting`）。就像一个应用程序请求另一个应用程序进行计算，展示如何与其他合约交互。",
+    "logicalProgression": "介绍合约间通信。",
+    "youtubeLink": "https://youtu.be/AUA6yZBabJ0",
+    "solutionLink": "https://builder-hub.notion.site/Smart-Calculator-1d05720a23ef803a86e3e16d534b51ab?pvs=4",
+    "sideTrack": {
+        "title": "Injective 预编译 – 区块链秘籍",
+        "conceptsTaught": [
+            "预编译是在 Injective 中固定地址的内置合约",
+            "它们以原生方式执行以提高效率",
+            "提供对 Injective 特有功能的访问，例如银行、质押和交易模块",
+            "允许合约与链上原生模块交互，而无需编写复杂逻辑"
+        ],
+        "exampleApplication": "探索 Injective 的银行预编译。"
+    }
+}
+,
         {
             "day": 10,
             "week": "第2周：中级Solidity",
