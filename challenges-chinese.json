@@ -134,7 +134,8 @@
                "提供对 Injective 特有功能的访问，例如银行、质押和交易模块",
                "允许合约与链上原生模块交互，而无需编写复杂逻辑"
             ],
-            "exampleApplication":"探索 Injective 的银行预编译。"
+            "exampleApplication":"探索 Injective 的银行预编译。",
+            "solution": "https://youtu.be/pl38GV_UIWM"
          }
       },
       {
