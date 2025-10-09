@@ -134,7 +134,8 @@
             "Proporcionan acceso a características específicas de Injective como el módulo bancario, staking y de intercambio",
             "Permiten a los contratos interactuar con módulos nativos de la cadena sin escribir lógica compleja"
         ],
-        "exampleApplication": "Explorando el precompilado del Banco en Injective."
+        "exampleApplication": "Explorando el precompilado del Banco en Injective.",
+        "solution": "https://youtu.be/pl38GV_UIWM"
     }
 },
         {
