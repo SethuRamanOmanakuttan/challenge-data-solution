@@ -134,7 +134,8 @@
                     "Provide access to Injective-specific features like the bank, staking, and exchange modules",
                     "Allow contracts to interact with chain-native modules without writing complex logic"
                 ],
-                "exampleApplication": "Exploring the Bank precompile on Injective."
+                "exampleApplication": "Exploring the Bank precompile on Injective.",
+                "solution": "https://youtu.be/pl38GV_UIWM"
             }
         },
       {
