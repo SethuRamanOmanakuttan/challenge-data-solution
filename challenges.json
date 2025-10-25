@@ -374,7 +374,9 @@
             "Enables order placement, cancellation, and querying directly from contracts",
             "Provides an alternative to AMMs for trading with tighter spreads and order control"
         ],
-        "exampleApplication": "Using the Injective CLOB as an alternative to AMM"
+        "exampleApplication": "Using the Injective CLOB as an alternative to AMM",
+        "solution": "https://youtu.be/Qc3OqTo2Nvw"
+
     }
 },
         {
