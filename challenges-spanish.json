@@ -374,7 +374,8 @@
             "Permite colocar órdenes, cancelarlas y consultarlas directamente desde los contratos",
             "Proporciona una alternativa a los AMMs para operar con spreads más ajustados y mayor control de órdenes"
         ],
-        "exampleApplication": "Usando el CLOB de Injective como alternativa a un AMM"
+        "exampleApplication": "Usando el CLOB de Injective como alternativa a un AMM",
+        "solution": "https://youtu.be/Qc3OqTo2Nvw"
     }
 },
 
