@@ -373,7 +373,8 @@
             "允许从合约直接下单、取消订单和查询订单",
             "为交易提供AMM的替代方案，实现更紧密的价差和更高的订单控制"
         ],
-        "exampleApplication": "使用Injective的CLOB作为AMM的替代方案"
+        "exampleApplication": "使用Injective的CLOB作为AMM的替代方案",
+         "solution": "https://youtu.be/Qc3OqTo2Nvw"
     }
 },
       {
